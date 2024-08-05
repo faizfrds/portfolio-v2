@@ -1,44 +1,75 @@
 "use client";
-import React from "react";
-import Image from "next/image";
-import Textbox from "./Textbox";
+import React, { useEffect, useState } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Textbox from "./Textbox";
 import Navbar from "./Navbar";
 import Experiences from "./Experiences";
 
 export default function Header() {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setOffset(window.pageYOffset);
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="h-3/4">
-      <Parallax pages={3} style={{ top: "0.1", left: "0" }} className="animation">
-        <ParallaxLayer offset={0} speed={0.5}>
-          <div className="animation_layer parallax" id="background"></div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={-0.3}>
-          <div className="animation_layer parallax" id="bg3"></div>
-        </ParallaxLayer>
+    <div>
+      <div className="relative h-screen overflow-x-hidden overflow-y-auto flex items-center">
+        <div
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/images/background.png)",
+            transform: `translateY(${offset * -0.1}px)`,
+          }}
+        />
 
-        <ParallaxLayer offset={0} speed={-0.1}>
-          <div className="animation_layer parallax" id="bg2"></div>
-        </ParallaxLayer>
+        {/* <div
+          className="absolute bottom-0 left-0 w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/images/black.png)",
+            transform: `translateY(${offset * -0.05}px)`,
+          }}
+        /> */}
+        <div
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/images/bg3.png)",
+            transform: `translateY(${offset * -0.06}px)`,
+          }}
+        />
 
-        <ParallaxLayer offset={-0.1} speed={-0.06}>
-          <div className="animation_layer parallax" id="nametag"></div>
-        </ParallaxLayer>
+        <div
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/images/bg2.png)",
+            transform: `translateY(${offset * -0.2}px)`,
+          }}
+        />
 
-        <ParallaxLayer offset={0} speed={0.4}>
-          <div className="animation_layer parallax" id="bg1"></div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.5} speed={0.4}>
-          <div className="animation_layer parallax" id="black"></div>
-        </ParallaxLayer>
-        <ParallaxLayer offset={0.85} speed={0.25}>
-          <Textbox />
-        </ParallaxLayer>
-        <ParallaxLayer offset={1.5} speed={0.25}>
-          <Experiences />
-        </ParallaxLayer>
-        
-      </Parallax>
+        <div className="w-full h-[500px] mb-10 md:h-[700px] lg:h-[900px] relative">
+          <div
+            className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+            style={{
+              backgroundImage: "url(/images/nametag.png)",
+              transform: `translateY(${offset * -0.1}px)`,
+            }}
+          />
+        </div>
+        <div
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+          style={{
+            backgroundImage: "url(/images/bg1.png)",
+            transform: `translateY(${offset * -0.35}px)`,
+          }}
+        />
+      </div>
+      <div className="relative z-20 mt-[100vh">
+        {/* Your content goes here */}
+        <Textbox />
+      </div>
     </div>
   );
 }

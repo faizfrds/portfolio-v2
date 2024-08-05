@@ -89,10 +89,10 @@
 
 #nametag {
   background-image: url(../public/images/nametag.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100vw; /* Adjust the width as needed */
-  height: 100vh; /* Adjust the height as needed */
+}
+
+#clouds {
+  background-image: url(../public/images/cloud.png);
 }
 
 /* Responsive adjustments */
