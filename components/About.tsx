@@ -4,10 +4,10 @@ export default function About() {
   return (
     <div id="about"
       className="justify-center flex py-10 bg-gradient-to-b from-teal-950 to-amber-200/70">
-      <div className="sm:flex items-center w-2/3 justify-center">
+      <div className="items-center w-2/3 justify-center flex flex-col-reverse lg:flex lg:flex-row">
 
 
-        <div className="w-1/2 p-10 md:w-2/3">
+        <div className="lg:p-10 lg:block lg:w-2/3 text-justify">
           <div className="text-white">
             <h2 className="my-4 font-bold text-3xl text-yellow-300 sm:text-4xl ">
               About Me
@@ -38,7 +38,7 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="w-1/2 pt-10 md:w-1/3">
+        <div className="pt-10 lg:w-1/3">
           <div className="w-72 h-72 mx-auto rounded-full overflow-hidden border-4 border-white">
             <img
               src="/images/profile.jpg"
