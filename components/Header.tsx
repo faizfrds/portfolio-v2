@@ -25,14 +25,6 @@ export default function Header() {
             transform: `translateY(${offset * -0.1}px)`,
           }}
         />
-
-        {/* <div
-          className="absolute bottom-0 left-0 w-full h-full bg-cover bg-center"
-          style={{
-            backgroundImage: "url(/images/black.png)",
-            transform: `translateY(${offset * -0.05}px)`,
-          }}
-        /> */}
         <div
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
@@ -58,13 +50,6 @@ export default function Header() {
             }}
           />
         </div>
-        {/* <div
-          className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-80"
-          style={{
-            backgroundImage: "url(/images/stars.png)",
-            transform: `translateY(${offset * 0.1}px)`,
-          }}
-        /> */}
         <div
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
