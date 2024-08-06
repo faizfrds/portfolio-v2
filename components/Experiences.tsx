@@ -68,20 +68,20 @@ export default function Experiences() {
       onBlur={handleBlur}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="to-teal-950 relative max-w-full overflow-hidden border-double border-0 border-t-8 border-b-8 border-yellow-300 bg-gradient-to-b from-slate-950 px-8 py-16 shadow-2xl h-full"
+      className="to-teal-950 relative max-w-full overflow-hidden border-double border-0 border-t-8 border-b-8 border-yellow-300 bg-gradient-to-b from-slate-950 px-8 py-10 shadow-2xl h-full"
     >
       <div
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
         style={{
           opacity,
-          background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(255,255,255,.06), transparent 60%)`,
+          background: `radial-gradient(300px circle at ${position.x}px ${position.y}px, rgba(255,255,255,.06), transparent 70%)`,
         }}
       />
      
-      <div className="justify-center flex px-8 py-7">
+      <div className="justify-center flex p-10">
         
-        <div className="lg:w-10/12 flex flex-col justify-center text-center">
-        <h1 className="text-4xl text-yellow-300 font-bold">Experiences</h1>
+        <div className="lg:w-2/3 flex flex-col justify-center text-center">
+        <h1 className="text-4xl text-yellow-300 font-bold my-4">Experiences</h1>
           <ol className="relative border-l border-gray-100 dark:border-gray-700 text-justify">
             {experiences.map((exp, index) => (
               <li key={index} className="mb-10 ml-5">
@@ -137,7 +137,7 @@ export default function Experiences() {
 
           <a
             className="flex items-center font-bold text-gray-100 group pt-2"
-            href="/resume.pdf"
+            href="#"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-500/40 motion-reduce:transition-none"></span>

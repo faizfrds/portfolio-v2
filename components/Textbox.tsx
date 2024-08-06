@@ -6,7 +6,7 @@ import Experiences from "./Experiences";
 
 export default function Textbox() {
   return (
-    <div className="bg-gradient-to-b from-black to-slate-950 h-fit mb-10 justify-center flex flex-col">
+    <div className="h-fit justify-center flex flex-col">
       <Grid />
       <Experiences />
     </div>

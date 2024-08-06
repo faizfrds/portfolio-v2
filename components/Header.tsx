@@ -49,7 +49,7 @@ export default function Header() {
           }}
         />
 
-        <div className="w-full h-[500px] mb-10 md:h-[700px] lg:h-[900px] relative">
+        <div className="w-full h-[500px] mb-16 md:mb-12 md:h-[700px] lg:h-[900px] relative">
           <div
             className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
             style={{
@@ -58,18 +58,23 @@ export default function Header() {
             }}
           />
         </div>
+        {/* <div
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-80"
+          style={{
+            backgroundImage: "url(/images/stars.png)",
+            transform: `translateY(${offset * 0.1}px)`,
+          }}
+        /> */}
         <div
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
             backgroundImage: "url(/images/bg1.png)",
             transform: `translateY(${offset * -0.35}px)`,
+            translate: 'translateY(-10px)'
           }}
         />
       </div>
-      <div className="relative z-20 mt-[100vh">
-        {/* Your content goes here */}
-        <Textbox />
-      </div>
+
     </div>
   );
 }
