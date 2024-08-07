@@ -13,27 +13,18 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hi there, I'm Faiz and I'm currently a junior computer science
-              student at UMass Amherst. I've been playing around with computers
-              for as long as I can remember and started learning coding at the age of 11. I'm currently an undergraduate teaching assistant for CS326 (Web
-              Programming) under Prof. Tim Richards and also a researcher for
-              PhD candidate Fadhil Kurnia.
+            Hi there, I'm Faiz, and I'm currently a junior computer science student at UMass Amherst. I've been playing around with computers for as long as I can remember and started learning to code at the age of 11. I'm currently an undergraduate teaching assistant for CS326 (Web Programming) under Prof. Tim Richards and also a researcher for PhD candidate Fadhil Kurnia.
             </p>
             <p className="text-sm mb-4 text-white">
-              My main focus these days is to explore as many areas of computer
-              science as I can while also getting my hands dirty with various
-              projects. I have avid interest in making functional software with
-              aesthetic UI and I have recently started getting into
-              low-level development in C.
+            My main focus these days is to explore as many areas of computer science as I can while also getting my hands dirty with various projects. I have an avid interest in making functional software with aesthetic UI, and I have recently started getting into low-level development in C.
             </p>
             <p className="text-sm mb-4 text-white">
-              Aside from computers, I love exploring mountains and misty
-              forests, playing around with cats, doing any activities that get my adrenaline going, and
-              spotting trains when I get the chance.
+            Aside from computers, I love exploring mountains and misty forests, playing around with cats, doing any activities that get my adrenaline going, and spotting trains when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
-              I'm open to any opportunities that come my way and I am more than
-              happy to talk!
+            I'm open to any opportunities that come my way and am more than happy to talk!
+
+
             </p>
           </div>
         </div>

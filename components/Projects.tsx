@@ -70,19 +70,17 @@ export default function Grid() {
               className="rounded-md overflow-hidden shadow-lg flex flex-col bg-slate-200/10 cursor-pointer hover:shadow-lg hover:shadow-yellow-300/40 hover:scale-[102%] transition duration-200 ease-in-out"
             >
               <div className="relative md:h-56 h-48 ">
-                <a>
-                  <img
-                    className="w-full h-full object-cover"
-                    src={card.image}
-                    alt="project pic"
-                  />
-                </a>
+                <img
+                  className="w-full h-full object-cover"
+                  src={card.image}
+                  alt="project pic"
+                />
               </div>
 
               <div className="px-6 py-4 mb-auto">
-                <a className="font-medium text-lg text-white inline-block duration-500 ease-in-out mb-2">
+                <span className="font-medium text-lg text-white inline-block duration-500 ease-in-out mb-2">
                   {card.name}
-                </a>
+                </span>
                 <p className="text-gray-500 text-sm">{card.desc}</p>
               </div>
 
@@ -98,22 +96,20 @@ export default function Grid() {
               </div>
             </a>
           ))}
+
+          <a
+            className="flex items-center font-bold text-gray-100 group pt-2"
+            href="/projects"
+          >
+            <span className="group whitespace-nowrap flex items-center">
+              <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
+                View Projects List
+              </span>
+              <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
+            </span>
+          </a>
         </div>
       </div>
-      <a
-        className="flex items-center font-bold text-gray-100 group pt-2"
-        href="/projects"
-      >
-        <span>
-          <span className="border-b border-transparent pb-px transition group-hover:border-teal-500/40 motion-reduce:transition-none"></span>
-          <span className="group whitespace-nowrap flex items-center">
-            <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
-              View Projects List
-            </span>
-            <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
-          </span>
-        </span>
-      </a>
     </div>
   );
 }
