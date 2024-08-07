@@ -64,13 +64,17 @@ export default function Grid() {
       <div className="max-w-screen-xl mx-auto p-8 sm:p-10 md:p-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projectsList.map((card, key) => (
-            <a key={key} href={card.url} className="rounded-md overflow-hidden shadow-lg flex flex-col bg-slate-200/10 cursor-pointer hover:shadow-lg hover:shadow-yellow-300/40 hover:scale-[102%] transition duration-200 ease-in-out">
+            <a
+              key={key}
+              href={card.url}
+              className="rounded-md overflow-hidden shadow-lg flex flex-col bg-slate-200/10 cursor-pointer hover:shadow-lg hover:shadow-yellow-300/40 hover:scale-[102%] transition duration-200 ease-in-out"
+            >
               <div className="relative md:h-56 h-48 ">
                 <a>
                   <img
                     className="w-full h-full object-cover"
                     src={card.image}
-                    alt="Sunset in the mountains"
+                    alt="project pic"
                   />
                 </a>
               </div>
@@ -84,7 +88,10 @@ export default function Grid() {
 
               <div className="flex p-2 mb-2 justify-center">
                 {card.tools.map((item, index) => (
-                  <div key={index} className="bg-slate-500/30 text-yellow-300 text-sm rounded-full mx-1 px-2 py-1">
+                  <div
+                    key={index}
+                    className="bg-slate-500/30 text-yellow-300 text-sm rounded-full mx-1 px-2 py-1"
+                  >
                     {item}
                   </div>
                 ))}
@@ -94,20 +101,19 @@ export default function Grid() {
         </div>
       </div>
       <a
-            className="flex items-center font-bold text-gray-100 group pt-2"
-            href="/projects"
-          >
-            <span>
-              <span className="border-b border-transparent pb-px transition group-hover:border-teal-500/40 motion-reduce:transition-none"></span>
-              <span className="group whitespace-nowrap flex items-center">
-                <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
-                  View Projects List
-                </span>
-                <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
-              </span>
+        className="flex items-center font-bold text-gray-100 group pt-2"
+        href="/projects"
+      >
+        <span>
+          <span className="border-b border-transparent pb-px transition group-hover:border-teal-500/40 motion-reduce:transition-none"></span>
+          <span className="group whitespace-nowrap flex items-center">
+            <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
+              View Projects List
             </span>
-          </a>
+            <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
+          </span>
+        </span>
+      </a>
     </div>
-
   );
 }
