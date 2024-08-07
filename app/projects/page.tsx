@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-// import "react-tabs/style/react-tabs.css";
 import { AiFillGithub, AiOutlineArrowLeft } from "react-icons/ai";
+// import "react-tabs/style/react-tabs.css";
 import { HiOutlineGlobeAlt, HiArrowLeft } from "react-icons/hi";
 import Link from "next/link";
 import Row from "./components/Row";
@@ -186,7 +186,7 @@ const Projects = () => {
                   </h1> */}
 
                   <table className="mt-3 w-[101%] border-collapse text-left">
-                    <thead className=" sticky top-0 z-10 text-yellow-200/80 px-6 py-5 backdrop-blur">
+                    <thead className=" text-yellow-200/80 px-6 py-5">
                       <tr>
                         <th
                           scope="col"

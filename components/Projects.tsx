@@ -1,19 +1,19 @@
 import React, { useRef, useState } from "react";
 import { BsArrowRight, BsArrowUpRight } from "react-icons/bs";
 
-const sample = [
+const projectsList = [
   {
     image: "/images/int-trav.JPG",
     name: "Intelligent Travel",
     desc: "AI powerered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
-    url: "",
+    url: "https://intelligent-travel.vercel.app/",
     tools: ["OpenAI", "React", "Tailwind"],
   },
   {
     image: "/images/cats4you.png",
     name: "Cats4You",
     desc: "Adoption hub for cats, maximizing use of relational databases to maintain data integrity and easier data management.",
-    url: "",
+    url: "https://cats4you.vercel.app/",
     tools: ["PostgreSQL", "Supabase", "REST API"],
   },
   {
@@ -21,29 +21,29 @@ const sample = [
     name: "XDN Benchmark",
     desc: "An approach used to capture state differences and replicate applications, paving the way for advancing current CDN technologies.",
     url: "",
-    tools: ["eBPF, C, Express.js"],
+    tools: ["eBPF", "Docker", "Python"],
   },
-  {
-    image: "/images/int-trav.JPG",
-    name: "Intelligent Travel",
-    desc: "AI powerered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
-    url: "",
-    tools: ["OpenAI", "React", "Tailwind"],
-  },
-  {
-    image: "/images/cats4you.png",
-    name: "Cats4You",
-    desc: "Adoption hub for cats, maximizing use of relational databases to maintain data integrity and easier data management.",
-    url: "",
-    tools: ["PostgreSQL", "Supabase", "REST API"],
-  },
-  {
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
-    name: "XDN Benchmark",
-    desc: "An approach used to capture state differences and replicate applications, paving the way for advancing current CDN technologies.",
-    url: "",
-    tools: ["eBPF, C, Express.js"],
-  },
+  // {
+  //   image: "/images/int-trav.JPG",
+  //   name: "Intelligent Travel",
+  //   desc: "AI powerered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
+  //   url: "https://intelligent-travel.vercel.app/",
+  //   tools: ["OpenAI", "React", "Tailwind"],
+  // },
+  // {
+  //   image: "/images/cats4you.png",
+  //   name: "Cats4You",
+  //   desc: "Adoption hub for cats, maximizing use of relational databases to maintain data integrity and easier data management.",
+  //   url: "https://cats4you.vercel.app/",
+  //   tools: ["PostgreSQL", "Supabase", "REST API"],
+  // },
+  // {
+  //   image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+  //   name: "XDN Benchmark",
+  //   desc: "An approach used to capture state differences and replicate applications, paving the way for advancing current CDN technologies.",
+  //   url: "",
+  //   tools: ["eBPF", "Docker", "Python"],
+  // }
 ];
 
 export default function Grid() {
@@ -80,51 +80,82 @@ export default function Grid() {
   };
 
   return (
-    <div className="min-h-screen lg:h-full h-fit items-center py-16 overflow-auto text-center bg-gradient-to-b from-black to-slate-950">
+    <div className="lg:h-fit items-center py-16 overflow-auto text-center bg-gradient-to-b from-black to-slate-950 flex justify-center flex-col">
       <h1 className="text-4xl font-bold text-yellow-300">Projects</h1>
-      <div className="container mx-auto px-1 flex justify-center w-full lg:w-1/2 lg:p-5">
-        <div className="flex flex-col justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 overflow-hidden w-full p-10">
-            {sample.map((proj) => (
-              <div
-                key={proj.name}
-                className="group cursor-pointer block max-w-xs p-4 bg-white border border-gray-200 h-[350px] w-[270px] rounded-lg shadow hover:bg-gray-100 hover:scale-[102%] transition-transform text-center hover:shadow-lg hover:shadow-yellow-300/90"
-              >
-                <div className="relative overflow-hidden w-full mb-4">
+      <div className="max-w-screen-xl mx-auto p-8 sm:p-10 md:p-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {projectsList.map((card) => (
+            <a href={card.url} className="rounded-md overflow-hidden shadow-lg flex flex-col bg-slate-200/10 cursor-pointer hover:shadow-lg hover:shadow-yellow-300/40 hover:scale-[102%] transition duration-200 ease-in-out">
+              <div className="relative md:h-56 h-48 ">
+                <a>
                   <img
-                    className="object-cover w-full h-full"
-                    src={proj.image}
-                    alt="Product"
+                    className="w-full h-full object-cover"
+                    src={card.image}
+                    alt="Sunset in the mountains"
                   />
-                  <div className="absolute inset-0 bg-black opacity-40"></div>
-                </div>
-                <h3 className="text-xl font-bold text-teal-800 mt-4 flex justify-center items-center">
-                  {proj.name}
-                  <BsArrowUpRight
-                    className="ml-2 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform"
-                    size={12}
-                  />
-                </h3>
-                <p className="text-gray-500 text-sm mt-2">{proj.desc}</p>
+                  <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+                </a>
               </div>
-            ))}
-          </div>
-          <a
-            className="font-bold text-gray-100 pt-2 flex justify-center"
+
+              <div className="px-6 py-4 mb-auto">
+                <a className="font-medium text-lg text-white inline-block duration-500 ease-in-out mb-2">
+                  {card.name}
+                </a>
+                <p className="text-gray-500 text-sm">{card.desc}</p>
+              </div>
+
+              <div className="flex p-2 mb-2 justify-center">
+                {card.tools.map((item, key) => (
+                  <div key={key} className="bg-slate-500/30 text-yellow-300 text-sm rounded-full mx-1 px-2 py-1">
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+      <a
+            className="flex items-center font-bold text-gray-100 group pt-2"
             href="/projects"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-500/40 motion-reduce:transition-none"></span>
               <span className="group whitespace-nowrap flex items-center">
                 <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
-                  View All Projects
+                  View Projects List
                 </span>
-                <BsArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
               </span>
             </span>
           </a>
-        </div>
-      </div>
     </div>
+
+    // <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+    //   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+    //     //cards
+    //     {sample.map((card) => (
+    //       <div className="rounded overflow-hidden shadow-lg flex flex-col">
+    //         <div className="relative h-48">
+    //           <a>
+    //             <img
+    //               className="w-full h-full object-cover"
+    //               src={card.image}
+    //               alt="Sunset in the mountains"
+    //             />
+    //             <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+    //           </a>
+    //         </div>
+
+    //         <div className="px-6 py-4 mb-auto">
+    //           <a className="font-medium text-lg text-white inline-block hover:text-indigo-600 transition duration-500 ease-in-out mb-2">
+    //             {card.name}
+    //           </a>
+    //           <p className="text-gray-500 text-sm">{card.desc}</p>
+    //         </div>
+    //       </div>
+    //     ))}
+    //   </div>
+    // </div>
   );
 }

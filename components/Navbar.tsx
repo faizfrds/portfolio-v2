@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="container mx-auto flex justify-end items-center">
           <div className="justify-end items-center space-x-4 mx-10 hidden md:flex">
             <a
-              href="https://google.com"
+              href="https://drive.google.com/file/d/1WqwSULu-3KfX7q4f9f6yvknoXFqFome_/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/30 text-sm font-semibold hover:text-yellow-100"
@@ -40,7 +40,7 @@ export default function Navbar() {
               About
             </a>
             <a
-              href="https://google.com"
+              href="mailto:faizfirdaus.340@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -50,7 +50,7 @@ export default function Navbar() {
               />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/faiz-firdaus-610778255/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,7 +60,7 @@ export default function Navbar() {
               />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/faizfrds"
               target="_blank"
               rel="noopener noreferrer"
             >
