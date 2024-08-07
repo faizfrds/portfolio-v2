@@ -8,15 +8,15 @@ const experiences = [
     title: "Research Intern",
     date: "June 2024 - Present",
     desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies, and implemented proof-of-concept models for performance enhancement.",
-    tools: ["python", "higher education", "programming"],
+    tools: ["eBPF", "C", "Python"],
   },
   {
     url: "https://www.umass.edu/",
     company: "University of Massachusetts Amherst",
     title: "Undergraduate Teaching Assistant",
     date: "September 2023 - Present",
-    desc: "Reinforced the operations of the course COMPSCI 119 - Introduction to Programming with Python by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
-    tools: ["python", "higher education", "programming"],
+    desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
+    tools: ["python", "web technologies", "higher education"],
   },
   {
     url: "https://www.mapcollective.com/",
@@ -131,7 +131,7 @@ export default function Experiences() {
                   <ul className="flex flex-wrap gap-2 font-medium text-s">
                     {exp.tools.map((tool, key) => (
                       <li key={key}>
-                        <div className="flex items-center rounded-full bg-cyan-500/50 px-3 py-1 leading-5 font-normal text-yellow-200">
+                        <div className="flex items-center rounded-full bg-cyan-500/50 px-3 py-1 leading-5 font-normal text-yellow-200 capitalize">
                           {tool}
                         </div>
                       </li>
