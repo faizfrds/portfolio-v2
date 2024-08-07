@@ -12,6 +12,32 @@ const Projects = () => {
 
   const projects = [
     {
+      year: "2024",
+      title: "Intelligent Travel",
+      description:
+        "AI powerered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
+      tools: ["OpenAI", "React", "Tailwind", "REST API"],
+      github: "https://github.com/faizfrds/solopack",
+      link: "https://solopack.vercel.app/",
+    },
+    {
+      year: "2024",
+      title: "XDN Project",
+      description:
+        "Method to capture state differences to allow replication of applications. Provides alternatives to current CDN technologies.",
+      tools: ["eBPF", "C", "Python", "Kernel"],
+      github: "https://github.com/faizfrds/solopack",
+    },
+    {
+      year: "2024",
+      title: "Solopack",
+      description:
+        "Travel forum for worldwide destinations where travelers can create communities and connect.",
+      tools: ["PostgreSQL", "REST API", "Prisma", "Google OAuth"],
+      github: "https://github.com/faizfrds/solopack",
+      link: "https://solopack.vercel.app/",
+    },
+    {
       year: "2023",
       title: "Recommendify",
       description:
