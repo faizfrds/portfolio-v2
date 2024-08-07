@@ -5,7 +5,7 @@ const experiences = [
   {
     url: "https://www.cics.umass.edu/",
     company: "manning college of information and computer sciences",
-    title: "Research Assistant",
+    title: "Research Intern",
     date: "June 2024 - Present",
     desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies, and implemented proof-of-concept models for performance enhancement.",
     tools: ["python", "higher education", "programming"],
