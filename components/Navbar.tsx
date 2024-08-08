@@ -19,7 +19,7 @@ export default function Navbar() {
     <div className="w-full">
       <nav
         className={
-          "bg-transparent absolute top-0 left-0 px-8 pt-8 pb-2 z-50 w-full "
+          "absolute top-0 left-0 px-8 pt-8 pb-2 z-50 w-full transition-all ease-in-out duration-500 " + (isOpen? "bg-custom-teal max-h-screen" : "bg-transparent max-h-0" )
         }
       >
         <div className="container mx-auto flex justify-end items-center">
@@ -82,9 +82,9 @@ export default function Navbar() {
         </div>
         
         <div
-          className={`lg:hidden absolute top-20 right-0 w-full flex flex-col items-center space-y-4 transition-all duration-500 ease-in-out ${
+          className={`lg:hidden absolute top-18 right-0 w-full flex flex-col items-center space-y-4 transition-all duration-500 ease-in-out ${
             isOpen ? "max-h-screen" : "max-h-0 opacity-0"
-          } overflow-hidden shadow-2xl rounded-3xl p-4`}
+          } overflow-hidden bg-custom-teal rounded-2xl shadow-[rgba(0,0,15,0.2)_0px_6px_0px_0px] p-4`}
         >
           <a
             href="https://google.com"
