@@ -28,7 +28,7 @@ export default function RootLayout({
           content="Faiz Firdaus Portfolio. Computer science student at UMass Amherst. Here are a list of my projects and experiences."
         />
         <meta />
-        <meta name="keywords" content="Faiz, Firdaus, Faiz Firdaus, Computer science, Software engineer, Software, Hardware, Research, Backend, Frontend, Internship, Intern, Student, Indonesia, United States, UMass Amherst, UMass, Massachusetts, Technology, Engineer, Design, CSS, React, Bpf, eBPF, Linux"></meta>
+        <meta name="keywords" content="Faiz, Firdaus, Faiz Firdaus, Computer science, Software engineer, Software, Artificial Intelligence, Artificial, Undergraduate, Linux, Hardware, Research, Backend, Frontend, Internship, Intern, Student, Indonesia, United States, UMass Amherst, UMass, Massachusetts, Technology, Engineer, Design, CSS, React, Bpf, eBPF, Linux"></meta>
       </head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={inter.className} id="top">

@@ -4,6 +4,7 @@ import { BsArrowRight, BsArrowUpRight } from "react-icons/bs";
 const projectsList = [
   {
     image: "/images/int-trav.JPG",
+    alt: "travel",
     name: "Intelligent Travel",
     desc: "AI powerered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
     url: "https://intelligent-travel.vercel.app/",
@@ -11,6 +12,7 @@ const projectsList = [
   },
   {
     image: "/images/cats4you.png",
+    alt: "cat shelter",
     name: "Cats4You",
     desc: "Adoption hub for cats, maximizing use of relational databases to maintain data integrity and easier data management.",
     url: "https://cats4you.vercel.app/",
@@ -18,6 +20,7 @@ const projectsList = [
   },
   {
     image: "/images/ebpf.png",
+    alt: "ebpf",
     name: "XDN Benchmark",
     desc: "An approach used to capture state differences and replicate applications, paving the way for advancing current CDN technologies.",
     url: "",
@@ -73,7 +76,7 @@ export default function Projects() {
                 <img
                   className="w-full h-full object-cover"
                   src={card.image}
-                  alt="project pic"
+                  alt={card.alt}
                 />
               </div>
 
