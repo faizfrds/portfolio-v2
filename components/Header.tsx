@@ -19,9 +19,16 @@ export default function Header() {
     <div>
       <div className="relative h-screen overflow-x-hidden overflow-y-auto flex items-center">
         <div
+          className="absolute top-0 left-0 w-full h-full bg-cover bg-center bg-gradient-to-b from-teal-950 to-yellow-100"
+          style={{
+            // backgroundImage: "url(/images/background.png)",
+            transform: `translateY(${offset * -0.2}px)`,
+          }}
+        />
+        <div
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
-            backgroundImage: "url(/images/background.png)",
+            backgroundImage: "url(/images/black.png)",
             transform: `translateY(${offset * -0.1}px)`,
           }}
         />
@@ -55,11 +62,10 @@ export default function Header() {
           style={{
             backgroundImage: "url(/images/bg1.png)",
             transform: `translateY(${offset * -0.35}px)`,
-            translate: 'translateY(-10px)'
+            translate: "translateY(-10px)",
           }}
         />
       </div>
-
     </div>
   );
 }

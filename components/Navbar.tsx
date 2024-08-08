@@ -84,7 +84,7 @@ export default function Navbar() {
         <div
           className={`lg:hidden absolute top-20 right-0 w-full flex flex-col items-center space-y-4 transition-all duration-500 ease-in-out ${
             isOpen ? "max-h-screen" : "max-h-0 opacity-0"
-          } overflow-hidden bg-custom-teal shadow-md rounded-xl p-4`}
+          } overflow-hidden shadow-2xl rounded-3xl p-4`}
         >
           <a
             href="https://google.com"
