@@ -18,6 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="en">
+      <head><meta name="google-site-verification" content="-h4ynCaHHpoWuOlLyDIhjqD7K8gARUoQe405WM7jxL0" /></head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={inter.className} id="top">
         <Navbar />
