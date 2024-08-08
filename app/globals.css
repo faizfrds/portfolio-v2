@@ -138,11 +138,16 @@
   0%
   {
       transform: rotate(315deg) translateX(0);
+      opacity: 0;
+  }
+  30%
+  {
+      transform: rotate(315deg) translateX(-500);
       opacity: 1;
   }
   70%
   {
-      opacity: 1;
+      opacity: 0;
   }
   100%
   {
@@ -152,30 +157,30 @@
 }
 #star:nth-child(1){
   top: 0;
-  right: 0;
+  right: 10px;
   left: initial;
   animation-delay: 0s;
-  animation-duration: 2s;
+  animation-duration: 1.7s;
 }
 #star:nth-child(2){
   top: 0;
   right: 500px;
   left: initial;
   animation-delay: 0.2s;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 #star:nth-child(3){
-  top: 80;
+  top: 100px;
   right: 0px;
   left: initial;
-  animation-delay: 0.5s;
-  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-duration: 2.4s;
 }
 #star:nth-child(4){
   top: 0;
   right: 180px;
   left: initial;
-  animation-delay: 0.3s;
+  animation-delay: 0.5s;
   animation-duration: 2.5s;
 }
 #star:nth-child(5){
@@ -189,13 +194,6 @@
   top: 0;
   right: 600px;
   left: initial;
-  animation-delay: 1s;
-  animation-duration: 3s;
-}
-#star:nth-child(7){
-  top: 100px;
-  right: 0px;
-  left: initial;
-  animation-delay: 1.3s;
-  animation-duration: 2s;
+  animation-delay: 1.1s;
+  animation-duration: 2.3s;
 }

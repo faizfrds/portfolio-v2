@@ -25,10 +25,7 @@ export default function Header() {
             transform: `translateY(${offset * -0.2}px)`,
           }}
         />
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden" >
-            <span id="star"></span>
-            <span id="star"></span>
-            <span id="star"></span>
+        <div className="absolute top-0 left-0 w-full h-[75vh] overflow-hidden" >
             <span id="star"></span>
             <span id="star"></span>
             <span id="star"></span>
