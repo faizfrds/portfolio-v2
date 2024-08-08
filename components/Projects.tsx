@@ -25,7 +25,7 @@ const projectsList = [
   },
 ];
 
-export default function Grid() {
+export default function Projects() {
   const divRef = useRef<HTMLDivElement>(null);
   const [isFocused, setIsFocused] = useState(false);
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -96,19 +96,18 @@ export default function Grid() {
               </div>
             </a>
           ))}
-
-          <a
-            className="flex items-center font-bold text-gray-100 group pt-2"
-            href="/projects"
-          >
-            <span className="group whitespace-nowrap flex items-center">
-              <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
-                View Projects List
-              </span>
-              <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
-            </span>
-          </a>
         </div>
+        <a
+          className="flex items-center font-bold text-gray-100 group pt-2 justify-center"
+          href="/projects"
+        >
+          <span className="group whitespace-nowrap flex items-center text-center mt-6">
+            <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
+              View Projects List
+            </span>
+            <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
+          </span>
+        </a>
       </div>
     </div>
   );
