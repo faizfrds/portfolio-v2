@@ -27,7 +27,7 @@ const experiences = [
   //   tools: ["Excel", "data analysis"],
   // },
   {
-    url: "https://mucciassessment.com/",
+    url: "https://www.theaapdn.org/",
     company: "The American Academy of Pediatric Neuropsychology",
     title: "Frontend Engineer Intern",
     date: "July 2023 - September 2023",
