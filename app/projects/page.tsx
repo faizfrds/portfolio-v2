@@ -25,7 +25,7 @@ const Projects = () => {
       title: "XDN Project",
       description:
         "Method to capture state differences to allow replication of applications. Provides alternatives to current CDN technologies.",
-      tools: ["eBPF", "C", "Python", "Kernel"],
+      tools: ["eBPF", "C", "Python", "Flask", "Docker"],
       github: "https://github.com/faizfrds/solopack",
     },
     {

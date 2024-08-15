@@ -8,7 +8,7 @@ const experiences = [
     title: "Research Intern",
     date: "June 2024 - Present",
     desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies, and implemented proof-of-concept models for performance enhancement.",
-    tools: ["eBPF", "C", "Python"],
+    tools: ["eBPF", "C", "Python", "Docker", "Flask"],
   },
   {
     url: "https://www.umass.edu/",
@@ -18,21 +18,29 @@ const experiences = [
     desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
     tools: ["python", "web technologies", "higher education"],
   },
+  // {
+  //   url: "https://www.mapcollective.com/",
+  //   company: "map-collective inc.",
+  //   title: "data science intern",
+  //   date: "january 2024 - may2024",
+  //   desc: "Compiled comprehensive reports summarizing findings, trends, and insights from 10+ automobile company data, providing recommendations for improving sustainability practices.",
+  //   tools: ["Excel", "data analysis"],
+  // },
   {
-    url: "https://www.mapcollective.com/",
-    company: "map-collective inc.",
-    title: "data science intern",
-    date: "january 2024 - may2024",
-    desc: "Compiled comprehensive reports summarizing findings, trends, and insights from 10+ automobile company data, providing recommendations for improving sustainability practices.",
-    tools: ["Excel", "data analysis"],
+    url: "https://mucciassessment.com/",
+    company: "The American Academy of Pediatric Neuropsychology",
+    title: "Frontend Engineer Intern",
+    date: "July 2023 - September 2023",
+    desc: "Brought a 25% surge in user web traffic by upgrading pages of an engaging frontend through HTML, Bootstrap, and Tailwind frameworks which overall elevated the client's online presence. Reinforced the development of responsive design and intuitive user experience through UI/UX design principles.",
+    tools: ["HTML", "Bootstrap", "Dreamweaver"],
   },
   {
     url: "https://mucciassessment.com/",
     company: "Mucci Assessment and Development",
-    title: "Frontend Engineer Intern",
+    title: "Data Science Intern",
     date: "July 2023 - September 2023",
-    desc: "Brought a 25% surge in user web traffic by upgrading pages of an engaging frontend through HTML, Bootstrap, and Tailwind frameworks which overall elevated the client's online presence. Reinforced the development of responsive design and intuitive user experience through UI/UX design principles",
-    tools: ["HTML", "Bootstrap", "Dreamweaver"],
+    desc: "Utilized web scraping tools to collect and analyze data on potential business partners, identifying over 20 viable candidate that created 60% successful new connections.",
+    tools: ["Web Scraper", "Phantombuster", "Excel"],
   },
 ];
 
@@ -93,10 +101,10 @@ export default function Experiences() {
           <ol className="relative border-l border-gray-100 dark:border-gray-700 text-justify">
             {experiences.map((exp, index) => (
               <li key={index} className="mb-10 ml-5">
-                <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-emerald-700">
+                <span className="absolute flex items-center justify-center w-6 h-6 bg-slate-100 rounded-full -left-3 ring-8 ring-teal-500/80">
                   <svg
                     aria-hidden="true"
-                    className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                    className="w-3 h-3 text-slate-500"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="httpwww.w3.org/2000/svg"

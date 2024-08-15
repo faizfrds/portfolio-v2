@@ -24,7 +24,7 @@ const projectsList = [
     name: "XDN Benchmark",
     desc: "An approach used to capture state differences and replicate applications, paving the way for advancing current CDN technologies.",
     url: "",
-    tools: ["eBPF", "Docker", "Python"],
+    tools: ["eBPF", "C", "Python","Flask"],
   },
 ];
 
