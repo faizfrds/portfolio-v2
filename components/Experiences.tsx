@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 const experiences = [
   {

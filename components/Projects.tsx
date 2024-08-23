@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { BsArrowRight, BsArrowUpRight } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
 const projectsList = [
   {
