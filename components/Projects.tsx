@@ -21,8 +21,8 @@ const projectsList = [
   {
     image: "/images/ebpf.png",
     alt: "ebpf",
-    name: "XDN Benchmark",
-    desc: "An approach used to capture state differences and replicate applications, paving the way for advancing current CDN technologies.",
+    name: "XDN",
+    desc: "An edge approach for content delivery networks. Capturing state differences using eBPF, paving the way for advancing current CDN technologies.",
     url: "",
     tools: ["eBPF", "C", "Python","Flask"],
   },

@@ -17,9 +17,11 @@ export default function Navbar() {
 
   return (
     <div className="w-full">
+      
+      
       <nav
         className={
-          "absolute top-0 left-0 px-8 pt-8 pb-2 z-50 w-full transition-all ease-in-out duration-500 " + (isOpen? "bg-custom-teal max-h-screen" : "bg-transparent max-h-0" )
+          "absolute top-0 left-0 px-8 pt-8 pb-2 z-50 w-full transition-all linear duration-500 " + (isOpen? "" : "bg-transparent max-h-0" )
         }
       >
         <div className="container mx-auto flex justify-end items-center">
@@ -71,7 +73,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden z-20">
             <button onClick={toggleMenu}>
               <AiOutlineMenu
                 className="text-white/30"
@@ -82,9 +84,9 @@ export default function Navbar() {
         </div>
         
         <div
-          className={`lg:hidden absolute top-18 right-0 w-full flex flex-col items-center space-y-4 transition-all duration-500 ease-in-out ${
-            isOpen ? "max-h-screen" : "max-h-0 opacity-0"
-          } overflow-hidden bg-custom-teal rounded-2xl shadow-[rgba(0,0,15,0.2)_0px_6px_0px_0px] p-4`}
+          className={`lg:hidden absolute top-18 right-0 w-full flex flex-col items-center space-y-4 transition-all  duration-500 ease-in-out top-0 pt-20 ${
+            isOpen ? " max-h-screen delay-100" : "max-h-0 opacity-0"
+          } overflow-hidden bg-custom-teal rounded-2xl p-4`}
         >
           <a
             href="https://google.com"

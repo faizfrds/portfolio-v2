@@ -8,7 +8,7 @@ const experiences = [
     company: "manning college of information and computer sciences",
     title: "Research Intern",
     date: "June 2024 - Present",
-    desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies, and implemented proof-of-concept models for performance enhancement.",
+    desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
     tools: ["eBPF", "C", "Python", "Docker", "Flask"],
   },
   {

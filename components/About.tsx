@@ -31,7 +31,7 @@ export default function About() {
         <div className="pt-10 lg:w-1/3">
           <div className="w-72 h-72 mx-auto rounded-full overflow-hidden border-4 border-white">
             <img
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt="Profile"
               className="object-cover w-full h-full"
             />
