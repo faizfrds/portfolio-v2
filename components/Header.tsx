@@ -4,6 +4,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Textbox from "./Textbox";
 import Navbar from "./Navbar";
 import Experiences from "./Experiences";
+import Experience_text from "./Experience_text";
 
 export default function Header() {
   const [offset, setOffset] = useState(0);
