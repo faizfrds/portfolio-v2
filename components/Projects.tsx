@@ -23,7 +23,7 @@ const projectsList = [
     alt: "ebpf",
     name: "XDN",
     desc: "An edge approach for content delivery networks. Capturing state differences using eBPF, paving the way for advancing current CDN technologies.",
-    url: "",
+    url: "https://github.com/faizfrds/xdn-ebpf/tree/main",
     tools: ["eBPF", "C", "Python","Flask"],
   },
 ];

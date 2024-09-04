@@ -17,7 +17,7 @@ const Projects = () => {
       description:
         "AI-powered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
       tools: ["OpenAI", "React", "Tailwind", "REST API"],
-      github: "https://github.com/faizfrds/solopack",
+      github: "https://github.com/faizfrds/intelligent-travel",
       link: "https://solopack.vercel.app/",
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       description:
         "Method to capture state differences to allow replication of applications. Provides alternatives to current CDN technologies.",
       tools: ["eBPF", "C", "Python", "Flask", "Docker"],
-      github: "https://github.com/faizfrds/solopack",
+      github: "https://github.com/faizfrds/xdn-ebpf/tree/main",
     },
     {
       year: "2024",
