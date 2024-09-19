@@ -202,6 +202,7 @@ export default function Experiences() {
           <a
             className="flex justify-center items-center font-bold text-gray-100 group pt-2"
             href="https://drive.google.com/file/d/1WqwSULu-3KfX7q4f9f6yvknoXFqFome_/view?usp=sharing"
+            target="#"
           >
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-500/40 motion-reduce:transition-none"></span>
