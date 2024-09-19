@@ -61,7 +61,6 @@ const courses = [
   "Database Management (SQL)",
   "Web Programming",
   "Computer Network and Security",
-  "Programming Methodology (TypeScript)",
   "Statistics and Probability",
   "Human-Computer Interaction",
 ];
@@ -177,11 +176,11 @@ export default function Experiences() {
 
           <a
             href="httpswww.cics.umass.edu"
-            className="text-left hidden md:flex items-center text-lg font-semibold rounded-md text-yellow-300 w-fit capitalize pt-5 pb-3"
+            className="text-left hidden lg:flex items-center text-lg font-semibold rounded-md text-yellow-300 w-fit capitalize pt-5 pb-3"
           >
             Relevant Courses taken
           </a>
-          <ul className="hidden md:flex flex-wrap gap-2 font-medium text-s mb-5">
+          <ul className="hidden lg:flex flex-wrap gap-2 font-medium text-s mb-5">
             {courses.map((course, key) => (
               <li key={key}>
                 <div className="flex items-center rounded-full bg-cyan-100/20 px-3 py-1 leading-5 font-normal text-slate-200 capitalize">
