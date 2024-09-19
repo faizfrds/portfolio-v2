@@ -3,14 +3,6 @@ import { BsArrowRight } from "react-icons/bs";
 
 const experiences = [
   {
-    url: "https://www.cics.umass.edu/",
-    company: "manning college of information and computer sciences",
-    title: "Research Intern",
-    date: "June 2024 - Present",
-    desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
-    tools: ["eBPF", "C", "Python", "Docker", "Flask"],
-  },
-  {
     url: "https://www.umass.edu/",
     company: "University of Massachusetts Amherst",
     title: "Undergraduate Teaching Assistant",
@@ -18,6 +10,23 @@ const experiences = [
     desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
     tools: ["python", "web technologies", "higher education"],
   },
+  {
+    url: "https://www.instagram.com/isa.amherst/",
+    company: "UMass Indonesian student association",
+    title: "Treasurer, Co-founder",
+    date: "June 2023 - Present",
+    desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
+    tools: ["leadership", "google sheets", "audit"],
+  },
+  {
+    url: "https://www.cics.umass.edu/",
+    company: "manning college of information and computer sciences",
+    title: "Research Intern",
+    date: "June 2024 - September 2024",
+    desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
+    tools: ["eBPF", "C", "Python", "Docker", "Flask"],
+  },
+
   // {
   //   url: "https://www.mapcollective.com/",
   //   company: "map-collective inc.",
@@ -42,6 +51,19 @@ const experiences = [
     desc: "Utilized web scraping tools to collect and analyze data on potential business partners, identifying over 20 viable candidate that created 60% successful new connections.",
     tools: ["Web Scraper", "Phantombuster", "Excel"],
   },
+];
+
+const courses = [
+  "Data Structures (Java)",
+  "Algorithms",
+  "Computer Systems (C)",
+  "Python Programming",
+  "Database Management (SQL)",
+  "Web Programming",
+  "Computer Network and Security",
+  "Programming Methodology (TypeScript)",
+  "Statistics and Probability",
+  "Human-Computer Interaction",
 ];
 
 export default function Experiences() {
@@ -93,11 +115,12 @@ export default function Experiences() {
           background: `radial-gradient(300px circle at ${position.x}px ${position.y}px, rgba(255,255,255,.06), transparent 70%)`,
         }}
       />
-     
+
       <div className="justify-center flex p-10">
-        
         <div className="lg:w-2/3 flex flex-col justify-center text-center">
-        <h1 className="text-4xl text-yellow-300 font-bold mt-4 mb-8">Experiences</h1>
+          <h1 className="text-4xl text-yellow-300 font-bold mt-4 mb-8">
+            Experiences
+          </h1>
           <ol className="relative border-l border-gray-100 dark:border-gray-700 text-justify">
             {experiences.map((exp, index) => (
               <li key={index} className="mb-10 ml-5">
@@ -119,7 +142,8 @@ export default function Experiences() {
 
                 <div className="ml-4">
                   <a
-                    href="httpswww.cics.umass.edu"
+                    href={exp.url}
+                    target="#"
                     className="text-left flex items-center text-xl font-bold rounded-md text-yellow-300 w-fit capitalize"
                   >
                     {exp.company}
@@ -152,7 +176,31 @@ export default function Experiences() {
           </ol>
 
           <a
-            className="flex items-center font-bold text-gray-100 group pt-2"
+            href="httpswww.cics.umass.edu"
+            className="text-left hidden md:flex items-center text-lg font-semibold rounded-md text-yellow-300 w-fit capitalize pt-5 pb-3"
+          >
+            Relevant Courses taken
+          </a>
+          <ul className="hidden md:flex flex-wrap gap-2 font-medium text-s mb-5">
+            {courses.map((course, key) => (
+              <li key={key}>
+                <div className="flex items-center rounded-full bg-cyan-100/20 px-3 py-1 leading-5 font-normal text-slate-200 capitalize">
+                  {course}
+                </div>
+              </li>
+            ))}
+          </ul>
+          {/* <ul className="flex md:hidden flex-wrap font-medium text-s mb-5">
+            {[1,2,3,4,5].map((e, key) => (
+              <li key={key}>
+                <div className="flex items-center px-1 py-1 leading-5 text-sm font-normal text-slate-200 capitalize">
+                  {courses[e]}
+                </div>
+              </li>
+            ))}
+          </ul> */}
+          <a
+            className="flex justify-center items-center font-bold text-gray-100 group pt-2"
             href="https://drive.google.com/file/d/1WqwSULu-3KfX7q4f9f6yvknoXFqFome_/view?usp=sharing"
           >
             <span>

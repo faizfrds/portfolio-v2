@@ -17,8 +17,7 @@ export default function About() {
               student at UMass Amherst. I've been playing with computers for as
               long as I can remember and started learning to code at 11. I'm
               currently an undergraduate teaching assistant for CS326 (Web
-              Programming) under Prof. Tim Richards and also a researcher for
-              PhD candidate Fadhil Kurnia.
+              Programming) under Prof. Tim Richards and a treasurer for the Indonesian Student Association.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to explore as many areas of computer
