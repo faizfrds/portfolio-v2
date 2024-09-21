@@ -99,7 +99,7 @@ export default function Navbar() {
             About
           </a>
           <a
-            href="https://google.com"
+            href="mailto:faizfirdaus.340@gmail.com"
             target="#"
             rel="noopener noreferrer"
             className="text-sm font-bold text-yellow-200 shadow-lg"
@@ -107,7 +107,7 @@ export default function Navbar() {
             Email
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/faiz-firdaus-610778255/"
             target="#"
             rel="noopener noreferrer"
             className="text-sm font-bold text-yellow-200 shadow-lg"
@@ -115,7 +115,7 @@ export default function Navbar() {
             LinkedIn
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/faizfrds"
             target="#"
             rel="noopener noreferrer"
             className="text-sm font-bold text-yellow-200 shadow-lg"

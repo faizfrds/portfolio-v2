@@ -41,7 +41,7 @@ const experiences = [
     title: "Software Engineer Intern",
     date: "July 2023 - September 2023",
     desc: "Brought a 25% surge in user web traffic by upgrading pages of an engaging frontend through HTML, Bootstrap, and Tailwind frameworks which overall elevated the client's online presence. Spearheaded a project to optimize site performance by caching and minimizing HTTP requests, reducing 20% of page load times.",
-    tools: ["HTML", "Bootstrap", "Dreamweaver"],
+    tools: ["HTML", "Bootstrap", "Tailwind", "Dreamweaver"],
   },
   {
     url: "https://mucciassessment.com/",
