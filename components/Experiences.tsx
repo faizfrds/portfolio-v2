@@ -3,8 +3,8 @@ import { BsArrowRight } from "react-icons/bs";
 
 const experiences = [
   {
-    url: "https://www.umass.edu/",
-    company: "University of Massachusetts Amherst",
+    url: "https://www.cics.umass.edu/",
+    company: "manning college of information and computer sciences",
     title: "Undergraduate Teaching Assistant",
     date: "September 2023 - Present",
     desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
@@ -19,8 +19,8 @@ const experiences = [
     tools: ["leadership", "google sheets", "audit"],
   },
   {
-    url: "https://www.cics.umass.edu/",
-    company: "manning college of information and computer sciences",
+    url: "https://www.umass.edu/",
+    company: "University of Massachusetts Amherst",
     title: "Research Intern",
     date: "June 2024 - September 2024",
     desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
