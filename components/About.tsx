@@ -27,7 +27,7 @@ export default function About() {
             </p>
             <p className="text-sm mb-4 text-white">
               When I'm not in front of the computer, I love to go on adventures in the mountains
-              (especially when it's misty and full of pine trees), spend time around my
+              (especially when it's misty and full of pine trees), walk under waterfalls, spend time around my
               cats, do any activity that pumps my adrenaline, and spot cool
               trains (and go on them) when I get the chance.
             </p>
