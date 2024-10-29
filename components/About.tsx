@@ -13,7 +13,7 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hi there, I'm Faiz, and I'm currently a junior computer science
+              Hello, I'm Faiz, and I'm currently a junior computer science
               student at UMass Amherst. I've been playing with computers for as
               long as I can remember and started learning to code at 11. I'm
               currently an undergraduate teaching assistant for CS326 (Web
@@ -21,20 +21,18 @@ export default function About() {
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to explore as many areas of computer
-              science as possible while also getting my hands dirty with
-              cutting-edge tools. I am avidly interested in making functional
+              science as possible and gain as much experience as I can. I am avidly interested in making functional
               software with aesthetic UI, and I have recently developed a liking
-              for low-level development.
+              for low-level development. I've also been enjoying my database class this semester. I'm still undecided whether I want to get into research or industry but I'll soon find out.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on adventures
-              (especially mountains and misty forests), spend time around my
+              When I'm not in front of the computer, I love to go on adventures in the mountains
+              (especially when it's misty and full of pine trees), spend time around my
               cats, do any activity that pumps my adrenaline, and spot cool
-              trains when I get the chance.
+              trains (and go on them) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
-              I'm open to any opportunities that come my way and am more than
-              happy to talk!
+              I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
             </p>
           </div>
         </div>
