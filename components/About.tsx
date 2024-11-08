@@ -13,11 +13,11 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hello, I'm Faiz, and I'm currently a junior computer science
-              student at UMass Amherst. I've been playing with computers for as
+              Hello, I'm Faiz, and I'm currently a junior computer science and math
+              major at the University of Massachusetts Amherst. I've been playing with computers for as
               long as I can remember and started learning to code at 11. I'm
-              currently an undergraduate teaching assistant for CS326 (Web
-              Programming) under Prof. Tim Richards and a treasurer for the Indonesian Student Association.
+              currently an undergraduate course assistant for CS326 (Web
+              Programming) under Prof. Tim Richards.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to explore as many areas of computer
@@ -28,7 +28,7 @@ export default function About() {
             <p className="text-sm mb-4 text-white">
               When I'm not in front of the computer, I love to go on adventures in the mountains
               (especially when it's misty and full of pine trees), walk under waterfalls, spend time around my
-              cats, do any activity that pumps my adrenaline, and spot cool
+              cats, do any activity that gets my adrenaline going, and spot cool
               trains (and go on them) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
