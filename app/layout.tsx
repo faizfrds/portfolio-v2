@@ -27,7 +27,7 @@ export default function RootLayout({
         />
         <meta
           name="description"
-          content="Faiz Firdaus Portfolio. Computer science student at University of Massachusetts Amherst. I have experiences in web development, systems programming, and data analysis. Open for opportunities and experiences."
+          content="Faiz Firdaus Portfolio. Computer science and math student at University of Massachusetts Amherst. I have experiences in web development, systems programming, and data analysis. Open for opportunities and experiences."
         />
         <meta />
         <meta name="keywords" content="Faiz, Firdaus, Faiz Firdaus, Computer science, Software engineer, Software, Artificial Intelligence, Artificial, Undergraduate, Linux, Hardware, Research, Backend, Frontend, Internship, Intern, Student, Indonesia, United States, UMass Amherst, UMass, Massachusetts, Technology, Engineer, Design, CSS, React, Bpf, eBPF, Linux"></meta>
