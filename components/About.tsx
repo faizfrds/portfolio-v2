@@ -13,23 +13,22 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hello, I'm Faiz, and I'm currently a junior computer science and math
-              major at the University of Massachusetts Amherst. I've been playing with computers for as
+              Hi there, I'm Faiz, and I'm currently a junior double majoring in Computer Science and Math (Statistics and Data Science concentration)
+              at the University of Massachusetts Amherst. I've been playing with computers for as
               long as I can remember and started learning to code at 11. I'm
-              currently an undergraduate course assistant for CS326 (Web
-              Programming) under Prof. Tim Richards.
+              currently an Undergraduate Course Assistant for CS326 (Web
+              Programming) under Prof. Tim Richards and looking to get into research.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to explore as many areas of computer
               science as possible and gain as much experience as I can. I am avidly interested in making functional
               software with aesthetic UI, and I have recently developed a liking
-              for low-level development. I've also been enjoying my database class this semester. I'm still undecided whether I want to get into research or industry but I'll soon find out.
+              for low-level development. I've also been enjoying my database class this semester so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
               When I'm not in front of the computer, I love to go on adventures in the mountains
-              (especially when it's misty and full of pine trees), walk under waterfalls, spend time around my
-              cats, do any activity that gets my adrenaline going, and spot cool
-              trains (and go on them) when I get the chance.
+              (especially when it's misty and full of pine trees and there are waterfalls flowing down), grow a deeper understanding of nature, give my cats a little too many snacks, do any activity that gets my adrenaline going, and spot cool
+              trains (including Amtrak) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
