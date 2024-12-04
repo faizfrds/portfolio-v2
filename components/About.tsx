@@ -17,7 +17,7 @@ export default function About() {
               at the University of Massachusetts Amherst. I've been playing with computers for as
               long as I can remember and started learning to code at 11. I'm
               currently an Undergraduate Course Assistant for CS326 (Web
-              Programming) under Prof. Tim Richards and looking to get into research.
+              Programming) under Prof. Tim Richards and a Researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore deeper on the interdisciplinary between computers and nature.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to explore as many areas of computer
@@ -26,8 +26,7 @@ export default function About() {
               for low-level development. I've also been enjoying my database class this semester so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on adventures in the mountains, especially when they're misty, blanketed with pine trees, and littered with waterfalls. I also enjoy exploring the interdisciplinary between technology and nature, spoiling my cats with a little too many snacks, do any activity that gets my adrenaline going, and spot cool
-              trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love to go on adventures in the mountains - especially when they're misty, blanketed with pine trees, and littered with waterfalls. I also enjoy shooting cinematic videos, spoiling my cats with a little too many snacks, do any activity that gets my adrenaline going, and spotting cool trains (including Amtrak) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
