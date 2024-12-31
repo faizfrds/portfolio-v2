@@ -20,9 +20,9 @@ export default function About() {
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to try as many areas of computer
-              science as I can and figure out what floats my boat. I'm avidly interested using in making functional
-              software with aesthetic UI, and I have recently developed a liking
-              for computer applications for the physical world (like IoT and robots). I've also been curious about smart agriculture and ML-driven wildlife conservation so I'm definitely keeping my options open.
+              science as I can and figure out what floats my boat. I'm avidly interested in making functional
+              software with aesthetic UI, and I have recently developed an interest
+              for computer applications in the physical world. I've also been curious about smart agriculture and ML-driven wildlife conservation so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
               When I'm not in front of the computer, I love to go on adventures in the mountains (bonus points if they're covered wih pine trees), creating cinematic videos, spoiling my cats with a little too many snacks, do any adrenaline-inducing activities, and spotting cool trains (including Amtrak) when I get the chance.
