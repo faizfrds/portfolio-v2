@@ -26,7 +26,7 @@ export default function About() {
               for low-level development. I've also been enjoying my database class this semester so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on adventures in the mountains - especially when they're misty, blanketed with pine trees, and littered with waterfalls. I also enjoy shooting cinematic videos, spoiling my cats with a little too many snacks, do any activity that gets my adrenaline going, and spotting cool trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love to go on mountain adventures (bonus points if they have lots of pine trees), shooting cinematic videos, spoiling my cats with a little too many snacks, do any activity that gets my adrenaline going, and spotting cool trains (including Amtrak) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
