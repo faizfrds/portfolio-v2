@@ -14,19 +14,18 @@ export default function About() {
             </h2>
             <p className="text-sm mb-4 text-white">
               Hi there, I'm Faiz, and I'm currently a junior double majoring in Computer Science and Math (Statistics and Data Science concentration)
-              at the University of Massachusetts Amherst. I've been playing with computers for as
-              long as I can remember and started learning to code at 11. I'm
+              at the University of Massachusetts Amherst. I'm
               currently an Undergraduate Course Assistant for CS326 (Web
-              Programming) under Prof. Tim Richards and a Researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore deeper on the interdisciplinary between computers and nature.
+              Programming) and doing some research for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore deeper on the interdisciplinary between computers and nature.
             </p>
             <p className="text-sm mb-4 text-white">
-              My main focus these days is to explore as many areas of computer
-              science as possible and gain as much experience as I can. I am avidly interested in making functional
+              My main focus these days is to try as many areas of computer
+              science as I can and figure out what floats my boat. I'm avidly interested using in making functional
               software with aesthetic UI, and I have recently developed a liking
-              for low-level development. I've also been enjoying my database class this semester so I'm definitely keeping my options open.
+              for computer applications for the physical world (like IoT and robots). I've also been curious about smart agriculture and ML-driven wildlife conservation so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on mountain adventures (bonus points if they have lots of pine trees), shooting cinematic videos, spoiling my cats with a little too many snacks, do any activity that gets my adrenaline going, and spotting cool trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love to go on mountain adventures (bonus points if they're covered wih pine trees), creating cinematic videos, spoiling my cats with a little too many snacks, do any adrenaline-inducing activities, and spotting cool trains (including Amtrak) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
