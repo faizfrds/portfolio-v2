@@ -25,7 +25,7 @@ export default function About() {
               for computer applications in the physical world. I've also been curious about smart agriculture and ML-driven wildlife conservation so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on adventures in the mountains (bonus points if they're covered wih pine trees), creating cinematic videos, spoiling my cats with a little too many snacks, do any adrenaline-inducing activities, and spotting cool trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love to go on adventures in the mountains (bonus points if they're covered wih pine trees), create cinematic videos, spoil my cats with a little too many snacks, do any adrenaline-inducing activities, and spot cool trains (including Amtrak) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
