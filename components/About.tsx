@@ -13,10 +13,10 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hi there, I'm Faiz, and I'm currently a junior double majoring in Computer Science and Math (Statistics and Data Science concentration)
+              Hi there, I'm Faiz, and I'm currently a third-year Computer Science and Math (Statistics and Data Science concentration) double major
               at the University of Massachusetts Amherst. I'm
               currently an Undergraduate Course Assistant for CS326 (Web
-              Programming) and doing some research for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore deeper on the interdisciplinary between computers and nature.
+              Programming) and an undergrad researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore deeper on the interdisciplinary between computers and nature.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to try as many areas of computer
@@ -25,7 +25,7 @@ export default function About() {
               for computer applications in the physical world. I've also been curious about smart agriculture and ML-driven wildlife conservation so I'm definitely keeping my options open.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on adventures in the mountains (bonus points if they're covered wih pine trees), create cinematic videos, spoil my cats with a little too many snacks, do any adrenaline-inducing activities, and spot cool trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love to go on outdoor adventures (bonus points if they have pine trees), create cinematic videos, spoil my cats with a little too many snacks, do any adrenaline-inducing activities, and spot cool trains (including Amtrak) when I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
