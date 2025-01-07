@@ -8,7 +8,7 @@ const projectsList = [
     name: "Garden of Eden",
     desc: "Small-scale smart farming system leveraging the use of sensors to automate simple gardening tasks, enhancing resource and energy efficiency.",
     url: "https://github.com/faizfrds/garden-of-eden",
-    tools: ["Arduino", "C++", "IoT"],
+    tools: ["Arduino", "C++", "Internet of Things"],
   },
   {
     image: "/images/cats4you.png",
