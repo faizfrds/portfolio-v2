@@ -3,9 +3,25 @@ import { BsArrowRight } from "react-icons/bs";
 
 const experiences = [
   {
+    url: "https://www.umass.edu/",
+    company: "University of Massachusetts Amherst",
+    title: "Peer Mentor",
+    date: "January 2025 - Present",
+    desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
+    tools: ["Collaboration", "communication", "resource provision"],
+  },
+  {
+    url: "https://www.cics.umass.edu/",
+    company: "University of Massachusetts Amherst",
+    title: "Undergraduate Researcher",
+    date: "December 2024 - Present",
+    desc: "Assisted research for the Wireless Sensors and Systems Lab (WSSL).",
+    tools: ["python", "C++", "Data analysis"],
+  },
+  {
     url: "https://www.cics.umass.edu/",
     company: "manning college of information and computer sciences",
-    title: "Undergraduate Teaching Assistant",
+    title: "Undergraduate Course Assistant",
     date: "September 2023 - Present",
     desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
     tools: ["python", "web technologies", "higher education"],
@@ -16,12 +32,12 @@ const experiences = [
     title: "Treasurer, Co-founder",
     date: "June 2023 - Present",
     desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
-    tools: ["leadership", "google sheets", "audit"],
+    tools: ["leadership", "google sheets", "financial audit"],
   },
   {
     url: "https://www.umass.edu/",
     company: "University of Massachusetts Amherst",
-    title: "Research Intern",
+    title: "Research Assistant",
     date: "June 2024 - September 2024",
     desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
     tools: ["eBPF", "C", "Python", "Docker", "Flask"],
@@ -43,14 +59,14 @@ const experiences = [
     desc: "Brought a 25% surge in user web traffic by upgrading pages of an engaging frontend through HTML, Bootstrap, and Tailwind frameworks which overall elevated the client's online presence. Spearheaded a project to optimize site performance by caching and minimizing HTTP requests, reducing 20% of page load times.",
     tools: ["HTML", "Bootstrap", "Tailwind", "Dreamweaver"],
   },
-  {
-    url: "https://mucciassessment.com/",
-    company: "Mucci Assessment and Development",
-    title: "Data Science Intern",
-    date: "July 2023 - September 2023",
-    desc: "Utilized web scraping tools to collect and analyze data on potential business partners, identifying over 20 viable candidate that created 60% successful new connections.",
-    tools: ["Web Scraper", "Phantombuster", "Excel"],
-  },
+  // {
+  //   url: "https://mucciassessment.com/",
+  //   company: "Mucci Assessment and Development",
+  //   title: "Data Science Intern",
+  //   date: "July 2023 - September 2023",
+  //   desc: "Utilized web scraping tools to collect and analyze data on potential business partners, identifying over 20 viable candidate that created 60% successful new connections.",
+  //   tools: ["Web Scraper", "Phantombuster", "Excel"],
+  // },
 ];
 
 const courses = [

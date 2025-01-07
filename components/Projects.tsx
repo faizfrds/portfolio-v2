@@ -3,12 +3,12 @@ import { BsArrowRight } from "react-icons/bs";
 
 const projectsList = [
   {
-    image: "/images/int-trav.JPG",
-    alt: "travel",
-    name: "Intelligent Travel",
-    desc: "AI powerered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
-    url: "https://intelligent-travel.vercel.app/",
-    tools: ["OpenAI", "React", "Tailwind"],
+    image: "/images/smart-farm.png",
+    alt: "farm",
+    name: "Garden of Eden",
+    desc: "Small-scale smart farming system leveraging the use of sensors to automate simple gardening tasks, enhancing resource and energy efficiency.",
+    url: "https://github.com/faizfrds/garden-of-eden",
+    tools: ["Arduino", "C++", "IoT"],
   },
   {
     image: "/images/cats4you.png",
