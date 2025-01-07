@@ -7,7 +7,7 @@ const experiences = [
     company: "University of Massachusetts Amherst",
     title: "Peer Mentor",
     date: "January 2025 - Present",
-    desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
+    desc: "Guided first-year students with academic resources and advice to maximize their adaptation to university life.",
     tools: ["Collaboration", "communication", "resource provision"],
   },
   {
@@ -23,7 +23,7 @@ const experiences = [
     company: "manning college of information and computer sciences",
     title: "Undergraduate Course Assistant",
     date: "September 2023 - Present",
-    desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the faculty staff. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
+    desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the professor. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
     tools: ["python", "web technologies", "higher education"],
   },
   {

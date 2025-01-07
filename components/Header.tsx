@@ -33,7 +33,7 @@ export default function Header() {
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
             backgroundImage: "url(/images/bg3.png)",
-            transform: `translateY(${offset * -0.06}px)`,
+            transform: `translateY(${offset * -0.1}px)`,
           }}
         />
 
@@ -41,7 +41,7 @@ export default function Header() {
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
             backgroundImage: "url(/images/bg2.png)",
-            transform: `translateY(${offset * -0.2}px)`,
+            transform: `translateY(${offset * -0.15}px)`,
           }}
         />
 
@@ -50,7 +50,7 @@ export default function Header() {
             className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
             style={{
               backgroundImage: "url(/images/nametag.png)",
-              transform: `translateY(${offset * -0.1}px)`,
+              transform: `translateY(${offset * -0.05}px)`,
             }}
           />
         </div>
@@ -58,7 +58,7 @@ export default function Header() {
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
           style={{
             backgroundImage: "url(/images/bg1.png)",
-            transform: `translateY(${offset * -0.35}px)`,
+            transform: `translateY(${offset * -0.36}px)`,
             translate: "translateY(-10px)",
           }}
         />
