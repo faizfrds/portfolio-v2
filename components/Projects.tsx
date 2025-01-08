@@ -6,7 +6,7 @@ const projectsList = [
     image: "/images/smart-farm.png",
     alt: "farm",
     name: "Garden of Eden",
-    desc: "Small-scale smart farming system leveraging the use of sensors to automate simple gardening tasks, enhancing resource and energy efficiency.",
+    desc: "Small-scale smart farming system leveraging the use of sensors to automate simple gardening tasks, ensuring efficient use of resources.",
     url: "https://github.com/faizfrds/garden-of-eden",
     tools: ["Arduino", "C++", "Internet of Things"],
   },
