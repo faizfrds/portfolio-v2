@@ -11,8 +11,8 @@ const experiences = [
     tools: ["Collaboration", "communication", "resource provision"],
   },
   {
-    url: "https://www.cics.umass.edu/",
-    company: "University of Massachusetts Amherst",
+    url: "http://wsslab.org/",
+    company: "Wireless Sensors and Systems Lab (WSSL)",
     title: "Undergraduate Researcher",
     date: "December 2024 - Present",
     desc: "Assisted research for the Wireless Sensors and Systems Lab (WSSL).",
