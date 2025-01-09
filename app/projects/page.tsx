@@ -26,7 +26,7 @@ const Projects = () => {
         "AI-powered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
       tools: ["OpenAI", "React", "Tailwind", "REST API"],
       github: "https://github.com/faizfrds/intelligent-travel",
-      link: "https://solopack.vercel.app/",
+      link: "https://intelligent-travel.vercel.app",
     },
     {
       year: "2024",
