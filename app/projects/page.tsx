@@ -13,11 +13,20 @@ const Projects = () => {
   const projects = [
     {
       year: "2025",
+      title: "Wild-no-fire",
+      description:
+        "Machine learning powered wildfire risk analyzer, leveraging the YOLOv11 model for better wildfire mitigation and prevention.",
+      tools: ["YOLOv11", "Computer Vision", "Machine Learning"],
+      github: "https://github.com/faizfrds/wild-no-fire",
+      link: "https://wildfire-prediction.vercel.app/"
+    },
+    {
+      year: "2025",
       title: "Garden of Eden",
       description:
         "AI-powered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
       tools: ["C++", "Arduino", "Hardware", "IoT"],
-      github: "https://github.com/faizfrds/garden-of-eden"
+      github: "https://github.com/faizfrds/garden-of-eden",
     },
     {
       year: "2024",

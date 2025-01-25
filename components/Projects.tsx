@@ -19,12 +19,36 @@ const projectsList = [
     tools: ["PostgreSQL", "Supabase", "REST API"],
   },
   {
+    image: "/images/wildfire.png",
+    alt: "wildfire",
+    name: "Wild-no-fire",
+    desc: "Machine learning powered wildfire risk analyzer, leveraging the YOLOv11 model for better wildfire mitigation and prevention.",
+    url: "https://wildfire-prediction.vercel.app/",
+    tools: ["YOLOv11", "Computer Vision","ML"],
+  },
+  {
     image: "/images/ebpf.png",
     alt: "ebpf",
     name: "XDN",
     desc: "An edge approach for content delivery networks. Capturing state differences using eBPF, paving the way for advancing current CDN technologies.",
     url: "https://github.com/faizfrds/xdn-ebpf/tree/main",
     tools: ["eBPF", "C", "Python","Flask"],
+  },
+  {
+    image: "/images/int-trav.JPG",
+    alt: "intelligent travel",
+    name: "Intelligent Travel",
+    desc: "AI-powered destination finder for adventurous travelers, leveraging OpenAI API to discover suitable locations with helpful informations.",
+    url: "https://intelligent-travel.vercel.app/",
+    tools: ["OpenAI", "REST API", "React"],
+  },
+  {
+    image: "/images/recfy.png",
+    alt: "ebpf",
+    name: "Recommendify",
+    desc: "Web app where users are presented with personalized data of their Spotify profiles. Recommended songs are also given which can be added directly to their Spotify playlist.",
+    url: "https://spotify-recfy.vercel.app/",
+    tools: ["Axios", "Spotify API", "Next.js"],
   },
 ];
 
