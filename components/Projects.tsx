@@ -86,7 +86,7 @@ export default function Projects() {
   };
 
   return (
-    <div className="lg:h-fit items-center py-16 overflow-auto text-center bg-gradient-to-b from-black to-slate-950 flex justify-center flex-col">
+    <div className="lg:h-fit items-center py-16 overflow-auto text-center bg-gradient-to-b from-black to-blue-800/20 flex justify-center flex-col">
       <h1 className="text-4xl font-bold text-yellow-300">Projects</h1>
       <div className="max-w-screen-xl mx-auto p-8 sm:p-10 md:p-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">

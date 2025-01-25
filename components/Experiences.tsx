@@ -121,7 +121,7 @@ export default function Experiences() {
       onBlur={handleBlur}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="to-teal-950 relative max-w-full overflow-hidden border-double border-0 border-t-8 border-b-8 border-yellow-300 bg-gradient-to-b from-slate-950 px-8 py-10 shadow-2xl h-full"
+      className="to-teal-950 relative max-w-full overflow-hidden border-double border-0 border-t-8 border-b-8 border-yellow-300 bg-gradient-to-b from-blue-800/20 px-8 py-10 shadow-2xl h-full"
     >
       <div
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"

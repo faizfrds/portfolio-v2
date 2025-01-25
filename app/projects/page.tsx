@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Wild-no-fire",
       description:
         "Machine learning powered wildfire risk analyzer, leveraging the YOLOv11 model for better wildfire mitigation and prevention.",
-      tools: ["YOLOv11", "Computer Vision", "Machine Learning"],
+      tools: ["YOLOv11", "PyTorch", "REST API", "Machine Learning"],
       github: "https://github.com/faizfrds/wild-no-fire",
       link: "https://wildfire-prediction.vercel.app/"
     },
@@ -250,7 +250,7 @@ const Projects = () => {
                           scope="col"
                           className="hidden md:table-cell py-8 px-8 lg:w-[30%]"
                         >
-                          Tech Stack
+                          Technologies
                         </th>
                         <th scope="col" className="py-8 px-8">
                           Links
