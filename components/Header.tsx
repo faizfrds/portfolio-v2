@@ -49,7 +49,7 @@ export default function Header() {
           <div
             className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
             style={{
-              backgroundImage: "url(/images/nametag.png)",
+              backgroundImage: "url(/images/nametag2.png)",
               transform: `translateY(${offset * -0.05}px)`,
             }}
           />

@@ -7,7 +7,7 @@ const experiences = [
     company: "University of Massachusetts Amherst",
     title: "Peer Mentor",
     date: "January 2025 - Present",
-    desc: "Guided first-year students with academic resources and advice to maximize their adaptation to university life.",
+    desc: "Guided first-year students with resources and assistance to maximize academic success.",
     tools: ["Collaboration", "communication", "resource provision"],
   },
   {
@@ -15,8 +15,8 @@ const experiences = [
     company: "Wireless Sensors and Systems Lab (WSSL)",
     title: "Undergraduate Researcher",
     date: "December 2024 - Present",
-    desc: "Assisted research for the Wireless Sensors and Systems Lab (WSSL).",
-    tools: ["python", "C++", "Data analysis"],
+    desc: "Investigated real-world applications of computer vision and sensor data for wildfire detection, enabling early mitigation strategies and damage prevention.",
+    tools: ["YOLOv11", "Computer Vision", "Image datasets"],
   },
   {
     url: "https://www.cics.umass.edu/",
@@ -37,7 +37,7 @@ const experiences = [
   {
     url: "https://www.umass.edu/",
     company: "University of Massachusetts Amherst",
-    title: "Research Assistant",
+    title: "Undergraduate Researcher",
     date: "June 2024 - September 2024",
     desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
     tools: ["eBPF", "C", "Python", "Docker", "Flask"],
@@ -70,14 +70,14 @@ const experiences = [
 ];
 
 const courses = [
-  "Data Structures (Java)",
+  "Machine Learning",
   "Algorithms",
   "Computer Systems (C)",
   "Python Programming",
-  "Database Management (SQL)",
+  "Information Systems (SQL)",
   "Web Programming",
   "Computer Network and Security",
-  "Statistics and Probability",
+  "Advanced Linear Algebra",
   "Human-Computer Interaction",
 ];
 

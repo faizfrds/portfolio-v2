@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiFillMail,
   AiOutlineMenu,
+  AiFillYoutube
 } from "react-icons/ai";
 
 export default function Navbar() {
@@ -69,6 +70,16 @@ export default function Navbar() {
                 size={30}
               />
             </a>
+            <a
+              href="https://www.youtube.com/@faizfrds27"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiFillYoutube
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
           </div>
 
           <div className="md:hidden z-20">
@@ -79,7 +90,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`lg:hidden absolute top-18 right-0 w-full flex flex-col items-center space-y-4 transition-all  duration-500 ease-in-out top-0 pt-20 ${
+          className={`lg:hidden absolute top-0 right-0 w-full flex flex-col items-center space-y-4 transition-all  duration-500 ease-in-out pt-20 pb-6 ${
             isOpen ? " max-h-screen delay-100" : "max-h-0 opacity-0"
           } overflow-hidden bg-custom-teal rounded-2xl p-4`}
         >
@@ -121,6 +132,14 @@ export default function Navbar() {
             className="text-sm font-bold text-yellow-200 shadow-lg"
           >
             GitHub
+          </a>
+          <a
+            href="https://www.youtube.com/@faizfrds27"
+            target="#"
+            rel="noopener noreferrer"
+            className="text-sm font-bold text-yellow-200 shadow-lg"
+          >
+            YouTube
           </a>
         </div>
       </nav>
