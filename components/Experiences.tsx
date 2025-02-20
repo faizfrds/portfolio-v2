@@ -12,10 +12,10 @@ const experiences = [
   },
   {
     url: "http://wsslab.org/",
-    company: "Wireless Sensors and Systems Lab (WSSL)",
+    company: "Wireless and Sensor Systems Lab (WSSL)",
     title: "Undergraduate Researcher",
     date: "December 2024 - Present",
-    desc: "Investigated real-world applications of computer vision and sensor data for wildfire detection, enabling early mitigation strategies and damage prevention.",
+    desc: "Investigated real-world applications of computer vision and sensor data for nature-related initiatives, enabling sustainable strategies and damage prevention.",
     tools: ["YOLOv11", "Computer Vision", "Image datasets"],
   },
   {
