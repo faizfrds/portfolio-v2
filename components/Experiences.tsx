@@ -15,7 +15,7 @@ const experiences = [
     company: "Wireless and Sensor Systems Lab (WSSL)",
     title: "Undergraduate Researcher",
     date: "December 2024 - Present",
-    desc: "Investigated real-world applications of computer vision and sensor data for nature-related initiatives, enabling sustainable strategies and environmental conservation.",
+    desc: "Investigated real-world applications of computer vision and sensor data for nature-related initiatives, enabling technology-driven sustainable strategies and environmental conservation.",
     tools: ["YOLOv11", "Computer Vision", "Image datasets"],
   },
   {
