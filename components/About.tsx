@@ -13,7 +13,7 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hi there, I'm Faiz, and I'm currently a third-year Computer Science and Math double major
+              Hi there, I'm Faiz, and I'm a third-year Computer Science and Math double major
               at the University of Massachusetts Amherst. I'm
               currently an Undergraduate Course Assistant for CS326 (Web
               Programming) and an Undergraduate Researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore the interdisciplinary between computers and nature.
