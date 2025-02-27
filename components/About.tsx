@@ -16,10 +16,10 @@ export default function About() {
               Hi there, I'm Faiz, and I'm currently a third-year Computer Science and Math double major
               at the University of Massachusetts Amherst. I'm
               currently an Undergraduate Course Assistant for CS326 (Web
-              Programming) and an Undergraduate Researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore deeper on the interdisciplinary between computers and nature.
+              Programming) and an Undergraduate Researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore the interdisciplinary between computers and nature.
             </p>
             <p className="text-sm mb-4 text-white">
-              My main focus these days is to explore different sides of computer
+              My main focus these days is to expose myself to different sides of computer
               science and figure out what floats my boat. I'm avidly interested in making functional
               software with aesthetic UI, and I have recently developed an interest
               for computer applications in the physical world, in particular smart agriculture and ML-driven environmental/wildlife conservation.
