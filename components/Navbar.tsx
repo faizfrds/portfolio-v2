@@ -71,7 +71,7 @@ export default function Navbar() {
               />
             </a>
             <a
-              href="https://www.youtube.com/@faizfrds27"
+              href="https://www.youtube.com/@indexnotzero"
               target="#"
               rel="noopener noreferrer"
             >
@@ -134,7 +134,7 @@ export default function Navbar() {
             GitHub
           </a>
           <a
-            href="https://www.youtube.com/@faizfrds27"
+            href="https://www.youtube.com/@indexnotzero"
             target="#"
             rel="noopener noreferrer"
             className="text-sm font-bold text-yellow-200 shadow-lg"
