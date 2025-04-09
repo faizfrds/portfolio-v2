@@ -44,7 +44,7 @@ export default function Footer() {
           </a>
         </div>
         <h2 className="text-gray-400 pt-2 capitalize">
-          created by faiz firdaus - last updated February 2025
+          created by faiz firdaus - last updated april 2025
         </h2>
         <h3 className="text-gray-500">
           Designed using Figma. Created using Next.js with Tailwind CSS.
