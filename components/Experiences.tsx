@@ -3,6 +3,14 @@ import { BsArrowRight } from "react-icons/bs";
 
 const experiences = [
   {
+    url: "https://aws.amazon.com/",
+    company: "Amazon Web Services (AWS)",
+    title: "Software Development Engineer Intern",
+    date: "May 2025 - ",
+    desc: "",
+    tools: [""],
+  },
+  {
     url: "https://www.umass.edu/",
     company: "University of Massachusetts Amherst",
     title: "Peer Mentor",
