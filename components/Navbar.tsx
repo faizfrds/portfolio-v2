@@ -5,7 +5,8 @@ import {
   AiFillGithub,
   AiFillMail,
   AiOutlineMenu,
-  AiFillYoutube
+  AiFillYoutube,
+  AiFillInstagram
 } from "react-icons/ai";
 
 export default function Navbar() {
@@ -80,6 +81,17 @@ export default function Navbar() {
                 size={30}
               />
             </a>
+            <a
+              href="https://www.instagram.com/faizfrds.mp4"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiFillInstagram
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
+            
           </div>
 
           <div className="md:hidden z-20">
@@ -140,6 +152,14 @@ export default function Navbar() {
             className="text-sm font-bold text-yellow-200 shadow-lg"
           >
             YouTube
+          </a>
+          <a
+            href="https://www.instagram.com/faizfrds.mp4"
+            target="#"
+            rel="noopener noreferrer"
+            className="text-sm font-bold text-yellow-200 shadow-lg"
+          >
+            Instagram
           </a>
         </div>
       </nav>
