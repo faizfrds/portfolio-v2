@@ -6,8 +6,8 @@ const experiences = [
     url: "https://aws.amazon.com/",
     company: "Amazon Web Services (AWS)",
     title: "Software Development Engineer Intern",
-    date: "May 2025 - ",
-    desc: "Summer internship at Arlington, VA",
+    date: "May 2025",
+    desc: "Arlington, VA",
     tools: ["AWS"],
   },
   {
