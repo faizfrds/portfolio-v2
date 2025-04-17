@@ -6,7 +6,7 @@ import {
   AiFillMail,
   AiOutlineMenu,
   AiFillYoutube,
-  AiFillInstagram
+  AiOutlineInstagram
 } from "react-icons/ai";
 
 export default function Navbar() {
@@ -86,7 +86,7 @@ export default function Navbar() {
               target="#"
               rel="noopener noreferrer"
             >
-              <AiFillInstagram
+              <AiOutlineInstagram
                 className="text-white/30 hover:text-yellow-100 transition"
                 size={30}
               />
