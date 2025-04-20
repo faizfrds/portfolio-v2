@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import Image from "next/image"; // ✅ Import Next Image
 
 const imageNames = ["wfall", "canon", "DSC01140", "tre", "DSC00421", "DSC00294"];
 
@@ -16,9 +17,12 @@ export default function Gallery() {
         <div className="grid grid-cols-1 md:grid-cols-3">
           {imageNames.map((link, key) => (
             <div className={`p-1 rounded-md bg-white m-2 ${key >= 3 ? 'hidden md:flex' : ''}`}>
-              <img
+              <Image
                 src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}.png`}
+                alt={link}
                 key={key}
+                width={400}
+                height={300}
                 className="rounded-lg"
                 loading="lazy"
               />
