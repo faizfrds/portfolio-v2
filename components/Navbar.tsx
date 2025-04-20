@@ -35,6 +35,12 @@ export default function Navbar() {
               Resume
             </a>
             <a
+              href="/projects"
+              className="text-white/30 text-sm font-semibold hover:text-yellow-100"
+            >
+              Projects
+            </a>
+            <a
               href="/gallery"
               className="text-white/30 text-sm font-semibold hover:text-yellow-100"
             >
@@ -119,6 +125,20 @@ export default function Navbar() {
             className="text-sm font-bold text-yellow-200 shadow-lg"
           >
             Resume
+          </a>
+          <a
+            href="/projects"
+            rel="noopener noreferrer"
+            className="text-sm font-bold text-yellow-200 shadow-lg"
+          >
+            Projects
+          </a>
+          <a
+            href="/gallery"
+            rel="noopener noreferrer"
+            className="text-sm font-bold text-yellow-200 shadow-lg"
+          >
+            Gallery
           </a>
           <a
             href="#about"
