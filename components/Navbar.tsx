@@ -35,6 +35,12 @@ export default function Navbar() {
               Resume
             </a>
             <a
+              href="/gallery"
+              className="text-white/30 text-sm font-semibold hover:text-yellow-100"
+            >
+              Gallery
+            </a>
+            <a
               href="#about"
               rel="noopener noreferrer"
               className="text-white/30 text-sm font-semibold hover:text-yellow-100"

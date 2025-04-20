@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="justify-center flex py-10 bg-gradient-to-b from-teal-950 to-amber-200/70"
+      className="justify-center flex py-10 bg-gradient-to-b from-amber-200/70 to-amber-100/10"
     >
       <div className="items-center w-2/3 justify-center flex flex-col-reverse lg:flex lg:flex-row">
         <div className="lg:p-10 lg:block lg:w-2/3 text-justify">

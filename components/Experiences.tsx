@@ -10,14 +10,14 @@ const experiences = [
     desc: "Arlington, VA",
     tools: ["AWS"],
   },
-  {
-    url: "https://www.umass.edu/",
-    company: "University of Massachusetts Amherst",
-    title: "Peer Mentor",
-    date: "January 2025 - Present",
-    desc: "Guided first-year students with resources and assistance to maximize academic success.",
-    tools: ["Collaboration", "communication", "resource provision"],
-  },
+  // {
+  //   url: "https://www.umass.edu/",
+  //   company: "University of Massachusetts Amherst",
+  //   title: "Peer Mentor",
+  //   date: "January 2025 - Present",
+  //   desc: "Guided first-year students with resources and assistance to maximize academic success.",
+  //   tools: ["Collaboration", "communication", "resource provision"],
+  // },
   {
     url: "http://wsslab.org/",
     company: "Wireless and Sensor Systems Lab (WSSL)",
@@ -42,14 +42,14 @@ const experiences = [
     desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
     tools: ["leadership", "google sheets", "financial audit"],
   },
-  {
-    url: "https://www.umass.edu/",
-    company: "University of Massachusetts Amherst",
-    title: "Undergraduate Researcher",
-    date: "June 2024 - September 2024",
-    desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
-    tools: ["eBPF", "C", "Python", "Docker", "Flask"],
-  },
+  // {
+  //   url: "https://www.umass.edu/",
+  //   company: "University of Massachusetts Amherst",
+  //   title: "Undergraduate Researcher",
+  //   date: "June 2024 - September 2024",
+  //   desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
+  //   tools: ["eBPF", "C", "Python", "Docker", "Flask"],
+  // },
 
   // {
   //   url: "https://www.mapcollective.com/",

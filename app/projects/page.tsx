@@ -273,7 +273,7 @@ const Projects = () => {
                   </table>
                 </div>
 
-                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                {/* <div className={openTab === 2 ? "block" : "hidden"} id="link2">
                   <h1 className="font-medium text-4xl text-center items-center pb-10 pt-8">
                     Graphic Design Projects
                   </h1>
@@ -315,7 +315,7 @@ const Projects = () => {
                       />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

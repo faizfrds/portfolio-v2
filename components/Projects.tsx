@@ -95,7 +95,9 @@ export default function Projects() {
               key={key}
               href={card.url}
               target="#"
-              className="rounded-md overflow-hidden shadow-lg flex flex-col bg-slate-200/10 cursor-pointer hover:shadow-lg hover:shadow-yellow-300/40 hover:scale-[102%] transition duration-200 ease-in-out"
+              className={`rounded-md overflow-hidden shadow-lg flex flex-col bg-slate-200/10 cursor-pointer hover:shadow-lg hover:shadow-yellow-300/40 hover:scale-[102%] transition duration-200 ease-in-out
+                ${key >= 3 ? 'hidden md:flex' : ''}
+              `}
             >
               <div className="relative md:h-56 h-48 ">
                 <img
@@ -131,7 +133,7 @@ export default function Projects() {
         >
           <span className="group whitespace-nowrap flex items-center text-center mt-6">
             <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
-              View Projects List
+              View All Projects
             </span>
             <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
           </span>
