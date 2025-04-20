@@ -140,7 +140,7 @@ const Projects = () => {
 
   return (
     <main className="bg-gradient-to-b from-slate-950 to-teal-950 lg:px-20 py-10 justify-center flex">
-      <div className="flex flex-wrap w-2/3 lg:mt-10 mt-20">
+      <div className="flex flex-wrap w-3/4 md:w-2/3 lg:mt-10 mt-20">
         <Link href="/">
           <div className="group flex items-center gap-x-1 text-white font-semibold">
             <HiArrowLeft
