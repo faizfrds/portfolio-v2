@@ -6,7 +6,7 @@ import {
   AiFillMail,
   AiOutlineMenu,
   AiFillYoutube,
-  AiOutlineInstagram
+  AiOutlineInstagram,
 } from "react-icons/ai";
 
 export default function Navbar() {
@@ -103,7 +103,6 @@ export default function Navbar() {
                 size={30}
               />
             </a>
-            
           </div>
 
           <div className="md:hidden z-20">
@@ -147,46 +146,58 @@ export default function Navbar() {
           >
             About
           </a>
-          <a
-            href="mailto:faizfirdaus.340@gmail.com"
-            target="#"
-            rel="noopener noreferrer"
-            className="text-sm font-bold text-yellow-200 shadow-lg"
-          >
-            Email
-          </a>
-          <a
-            href="https://www.linkedin.com/in/faiz-firdaus-610778255/"
-            target="#"
-            rel="noopener noreferrer"
-            className="text-sm font-bold text-yellow-200 shadow-lg"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/faizfrds"
-            target="#"
-            rel="noopener noreferrer"
-            className="text-sm font-bold text-yellow-200 shadow-lg"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.youtube.com/@indexnotzero"
-            target="#"
-            rel="noopener noreferrer"
-            className="text-sm font-bold text-yellow-200 shadow-lg"
-          >
-            YouTube
-          </a>
-          <a
-            href="https://www.instagram.com/faizfrds.mp4"
-            target="#"
-            rel="noopener noreferrer"
-            className="text-sm font-bold text-yellow-200 shadow-lg"
-          >
-            Instagram
-          </a>
+          <div className="flex gap-x-3 pt-4">
+            <a
+              href="mailto:faizfirdaus.340@gmail.com"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiFillMail
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/faiz-firdaus-610778255/"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiFillLinkedin
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://github.com/faizfrds"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/@indexnotzero"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiFillYoutube
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/faizfrds.mp4"
+              target="#"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineInstagram
+                className="text-white/30 hover:text-yellow-100 transition"
+                size={30}
+              />
+            </a>
+          </div>
         </div>
       </nav>
     </div>
