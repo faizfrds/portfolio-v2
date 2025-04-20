@@ -4,18 +4,24 @@ import Image from "next/image"; // ✅ Import Next Image
 import { HiOutlineGlobeAlt, HiArrowLeft } from "react-icons/hi";
 
 const imageNames = [
-  "beach",
-  "bridge",
-  "wfall",
-  "canon",
-  "cool",
-  "DSC00421",
-  "hotel",
-  "DSC00294",
-  "tre",
-  "snowy",
-  "DSC01140",
-  "waterfall",
+  "waterfall.png",
+  "bridge.png",
+  "wfall.png",
+  "canon.png",
+  "cool.png",
+  "DSC00421.png",
+  "hotel.png",
+  "DSC00294.png",
+  "tre.png",
+  "snowy.png",
+  "DSC01140.png",
+  "beach.png",
+  "car.jpg",
+  "DSC00215.jpg",
+  "DSC00226.jpeg",
+  "DSC00868.JPG",
+  "IMG_9349.jpg",
+  "yose.jpg",
 ];
 
 export default function Gallery() {
@@ -33,9 +39,7 @@ export default function Gallery() {
         </Link>
 
         <div className="justify-center flex flex-col">
-          <h1 className="text-yellow-300 text-4xl font-bold my-5">
-            Gallery
-          </h1>
+          <h1 className="text-yellow-300 text-4xl font-bold my-5">Gallery</h1>
           <div className="columns-1 sm:columns-2 sm:gap-8 md:columns-3">
             {imageNames.map((link, key) => (
               <div
@@ -43,7 +47,7 @@ export default function Gallery() {
                 className={`bg-white p-1 rounded-md ${key !== 0 ? "mt-3" : ""}`}
               >
                 <Image
-                  src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}.png`}
+                  src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}`}
                   alt={link}
                   width={400}
                   height={300}

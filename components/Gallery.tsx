@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image"; // ✅ Import Next Image
 
-const imageNames = ["wfall", "canon", "DSC01140", "tre", "DSC00421", "DSC00294"];
+const imageNames = ["wfall.png", "canon.png", "DSC01140.png", "tre.png", "DSC00421.png", "DSC00868.JPG"];
 
 export default function Gallery() {
   return (
@@ -18,7 +18,7 @@ export default function Gallery() {
           {imageNames.map((link, key) => (
             <div className={`p-1 rounded-md bg-white m-2 ${key >= 3 ? 'hidden md:flex' : ''}`}>
               <Image
-                src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}.png`}
+                src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}`}
                 alt={link}
                 key={key}
                 width={400}
