@@ -20,6 +20,7 @@ export default function Gallery() {
                 src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}.png`}
                 key={key}
                 className="rounded-lg"
+                loading="lazy"
               />
             </div>
           ))}
