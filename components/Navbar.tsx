@@ -113,7 +113,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`lg:hidden absolute top-0 right-0 w-full flex flex-col items-center space-y-4 transition-all  duration-500 ease-in-out pt-20 pb-6 ${
+          className={`md:hidden absolute top-0 right-0 w-full flex flex-col items-center space-y-4 transition-all  duration-500 ease-in-out pt-20 pb-6 ${
             isOpen ? " max-h-screen delay-100" : "max-h-0 opacity-0"
           } overflow-hidden bg-custom-teal rounded-2xl p-4`}
         >
