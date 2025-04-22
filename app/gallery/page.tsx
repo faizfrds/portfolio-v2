@@ -19,7 +19,7 @@ async function getImageNames() {
   const command = new ListObjectsV2Command({ Bucket: "picturesforfaiz" });
   const response = await s3.send(command);
 
-  const imageNames = response.Contents?.map((item) => {
+  const imageNames = response.Contents!.map((item) => {
     if (item) return item.Key;
   });
 
@@ -52,7 +52,7 @@ export default async function Gallery() {
               >
                 <Image
                   src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}`}
-                  alt={link}
+                  alt={link!}
                   width={400}
                   height={300}
                   className="rounded-lg w-full h-auto"
