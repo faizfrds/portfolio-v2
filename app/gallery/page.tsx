@@ -22,13 +22,12 @@ async function getImageNames() {
   const imageNames = response.Contents?.map((item) => {
     if (item) return item.Key;
   });
-  console.log(imageNames);
-  return imageNames;
+
+  return imageNames ?? [];
 }
 
 export default async function Gallery() {
   const imageNames = await getImageNames();
-  // console.log(imageNames)
 
   return (
     <main className="bg-gradient-to-b from-slate-950 to-teal-950 lg:px-20 py-10 justify-center flex">
