@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image"; // ✅ Import Next Image
 
-const imageNames = ["wfall.png", "canon.png", "DSC01140.png", "tre.png", "DSC00421.png", "DSC00868.JPG"];
+const imageNames = ["wfall.png", "canon.png", "DSC01140.png", "tre.png", "DSC00421.png", "car.JPG"];
 
 export default function Gallery() {
   return (

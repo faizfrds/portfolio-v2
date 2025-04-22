@@ -17,6 +17,7 @@ const imageNames = [
   "DSC01140.png",
   "beach.png",
   "car.jpg",
+  "car.JPG",
   "DSC00215.jpg",
   "DSC00226.jpeg",
   "DSC00868.JPG",
