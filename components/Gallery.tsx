@@ -54,7 +54,7 @@ export default function Gallery() {
     onBlur={handleBlur}
     onMouseEnter={handleMouseEnter}
     onMouseLeave={handleMouseLeave}
-    className="bg-gradient-to-b from-teal-950 to-amber-200/70 relative max-w-full overflow-hidden border-double border-0 border-b-8 px-8 py-10 shadow-2xl h-full  border-yellow-300"
+    className="bg-gradient-to-b from-teal-950 to-amber-200/70 relative max-w-full overflow-hidden border-double border-0 border-b-8 py-10 shadow-2xl h-full  border-yellow-300"
   >
     <div
       className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
@@ -65,44 +65,40 @@ export default function Gallery() {
     />
 
     
-    <div
+<div
       id="gallery"
-      className="justify-center flex p-10"
+      className="justify-center flex py-10 "
     >
-      <div className="items-center max-w-screen-xl mx-8 lg:mx-0 lg:w-2/3 justify-center flex flex-col">
+      <div className="items-center max-w-screen-xl mx-6 lg:mx-0 w-max-screen md:px-10 justify-center flex flex-col">
         <h1 className="text-4xl text-yellow-300 font-bold mt-4 mb-8">
           Gallery
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {imageNames.map((link, key) => (
-            <div
-              className={`p-1 rounded-md bg-white m-2 ${
-                key >= 3 ? "hidden md:flex" : ""
-              }`}
-            >
+            <div className={`p-1 rounded-md bg-white m-2 ${key >= 3 ? 'hidden md:flex' : ''}`}>
               <Image
                 src={`https://picturesforfaiz.s3.us-east-2.amazonaws.com/${link}`}
                 alt={link}
                 key={key}
                 width={400}
                 height={300}
-                className="rounded-lg"
+                className="rounded-lg object-cover md:w-[400px] md:h-[250px]"
                 loading="lazy"
               />
             </div>
           ))}
         </div>
-        <a
-          className="flex items-center font-bold text-gray-100 group justify-center"
-          href="/gallery"
-        >
-          <span className="group whitespace-nowrap flex items-center text-center mt-6">
-            <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
-              View Gallery
-            </span>
-            <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
-          </span>
-        </a>
+         <a
+                  className="flex items-center font-bold text-gray-100 group pt-2 justify-center"
+                  href="/gallery"
+                >
+                  <span className="group whitespace-nowrap flex items-center text-center mt-6">
+                    <span className="font-light border-b border-transparent pb-px transition group-hover:border-yellow-200 motion-reduce:transition-none">
+                      View Gallery
+                    </span>
+                    <BsArrowRight className="ml-2 group-hover:translate-x-1 transition" />
+                  </span>
+                </a>
       </div>
     </div>
     </div>
