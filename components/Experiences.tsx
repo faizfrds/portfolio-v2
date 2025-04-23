@@ -7,7 +7,7 @@ const experiences = [
     company: "Amazon Web Services (AWS)",
     title: "Software Development Engineer Intern",
     date: "May 2025",
-    desc: "Arlington, VA",
+    desc: "More coding yay",
     tools: ["AWS"],
   },
   // {
@@ -39,7 +39,7 @@ const experiences = [
     company: "UMass Indonesian student association",
     title: "Treasurer, Co-founder",
     date: "June 2023 - Present",
-    desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
+    desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases. Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
     tools: ["leadership", "google sheets", "financial audit"],
   },
   // {
@@ -135,7 +135,7 @@ export default function Experiences() {
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
         style={{
           opacity,
-          background: `radial-gradient(300px circle at ${position.x}px ${position.y}px, rgba(255,255,255,.06), transparent 70%)`,
+          background: `radial-gradient(250px circle at ${position.x}px ${position.y}px, rgba(255,255,255,.12), transparent 90%)`,
         }}
       />
 
@@ -213,15 +213,6 @@ export default function Experiences() {
               </li>
             ))}
           </ul>
-          {/* <ul className="flex md:hidden flex-wrap font-medium text-s mb-5">
-            {[1,2,3,4,5].map((e, key) => (
-              <li key={key}>
-                <div className="flex items-center px-1 py-1 leading-5 text-sm font-normal text-slate-200 capitalize">
-                  {courses[e]}
-                </div>
-              </li>
-            ))}
-          </ul> */}
           <a
             className="flex justify-center items-center font-bold text-gray-100 group pt-2"
             href="https://drive.google.com/file/d/1WqwSULu-3KfX7q4f9f6yvknoXFqFome_/view?usp=sharing"
