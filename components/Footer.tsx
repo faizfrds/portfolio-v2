@@ -43,7 +43,7 @@ export default function Footer() {
                       />
                     </a>
                     <a
-                      href="https://www.youtube.com/@indexnotzero"
+                      href="https://www.youtube.com/@faizfrds.mp4"
                       target="#"
                       rel="noopener noreferrer"
                     >
