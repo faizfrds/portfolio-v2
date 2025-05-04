@@ -84,7 +84,7 @@ export default function Navbar() {
               />
             </a>
             <a
-              href="https://www.youtube.com/@indexnotzero"
+              href="https://www.youtube.com/@faizfrds.mp4"
               target="#"
               rel="noopener noreferrer"
             >
@@ -178,7 +178,7 @@ export default function Navbar() {
               />
             </a>
             <a
-              href="https://www.youtube.com/@indexnotzero"
+              href="https://www.youtube.com/@faizfrds.mp4"
               target="#"
               rel="noopener noreferrer"
             >
