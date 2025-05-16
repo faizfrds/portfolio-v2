@@ -44,6 +44,9 @@ export default async function Gallery() {
 
         <div className="justify-center flex flex-col">
           <h1 className="text-yellow-300 text-4xl font-bold my-5">Gallery</h1>
+          {/* <h1 className="text-white my-3 pb-5">
+          Photography, Photoshop, Graphic Design
+        </h1> */}
           <div className="columns-1 sm:columns-2 sm:gap-8 md:columns-3">
             {imageNames.map((link, key) => (
               <div
