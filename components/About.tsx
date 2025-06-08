@@ -15,8 +15,7 @@ export default function About() {
             <p className="text-sm mb-4 text-white">
               Hi there, I'm Faiz, and I'm a third-year Computer Science and Math double major
               at the University of Massachusetts Amherst. I'm
-              currently an Undergraduate Course Assistant for CS326 (Web
-              Programming) and an Undergraduate Researcher for the Wireless and Sensors Systems Lab (WSSL). I'm looking to explore the interdisciplinary between computers and nature.
+              currently a software engineeer intern at AWS in Arlington, VA. Moving forward, I want to explore the interdisciplinary between computers and nature.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to expose myself to different sides of computer

@@ -6,9 +6,9 @@ const experiences = [
     url: "https://aws.amazon.com/",
     company: "Amazon Web Services (AWS)",
     title: "Software Development Engineer Intern",
-    date: "May 2025",
-    desc: "More coding yay",
-    tools: ["AWS"],
+    date: "May 202 - Present",
+    desc: "AWS AppSync",
+    tools: ["AWS", "Coral", "Cloud"],
   },
   // {
   //   url: "https://www.umass.edu/",
@@ -18,14 +18,6 @@ const experiences = [
   //   desc: "Guided first-year students with resources and assistance to maximize academic success.",
   //   tools: ["Collaboration", "communication", "resource provision"],
   // },
-  {
-    url: "http://wsslab.org/",
-    company: "Wireless and Sensor Systems Lab (WSSL)",
-    title: "Undergraduate Researcher",
-    date: "December 2024 - Present",
-    desc: "Investigated real-world applications of computer vision and sensor data for nature-related initiatives, enabling technology-driven sustainable strategies and environmental conservation.",
-    tools: ["YOLOv11", "Computer Vision", "Image datasets"],
-  },
   {
     url: "https://www.cics.umass.edu/",
     company: "manning college of information and computer sciences",
@@ -41,6 +33,14 @@ const experiences = [
     date: "June 2023 - Present",
     desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases. Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
     tools: ["leadership", "google sheets", "financial audit"],
+  },
+  {
+    url: "http://wsslab.org/",
+    company: "Wireless and Sensor Systems Lab (WSSL)",
+    title: "Undergraduate Researcher",
+    date: "December 2024 - May 2025",
+    desc: "Investigated real-world applications of computer vision and sensor data for nature-related initiatives, enabling technology-driven sustainable strategies and environmental conservation.",
+    tools: ["YOLOv11", "Computer Vision", "Image datasets"],
   },
   // {
   //   url: "https://www.umass.edu/",
