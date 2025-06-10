@@ -10,14 +10,7 @@ const experiences = [
     desc: "AWS AppSync",
     tools: ["AWS", "Java"],
   },
-  // {
-  //   url: "https://www.umass.edu/",
-  //   company: "University of Massachusetts Amherst",
-  //   title: "Peer Mentor",
-  //   date: "January 2025 - Present",
-  //   desc: "Guided first-year students with resources and assistance to maximize academic success.",
-  //   tools: ["Collaboration", "communication", "resource provision"],
-  // },
+
   {
     url: "https://www.cics.umass.edu/",
     company: "manning college of information and computer sciences",
@@ -33,6 +26,14 @@ const experiences = [
     date: "June 2023 - Present",
     desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases. Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
     tools: ["leadership", "google sheets", "financial audit"],
+  },
+  {
+    url: "https://www.umass.edu/",
+    company: "University of Massachusetts Amherst",
+    title: "Peer Mentor",
+    date: "January 2025 - Present",
+    desc: "Guided first-year students with resources and assistance to maximize academic success.",
+    tools: ["Collaboration", "communication", "resource provision"],
   },
   {
     url: "http://wsslab.org/",
