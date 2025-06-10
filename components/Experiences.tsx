@@ -6,9 +6,9 @@ const experiences = [
     url: "https://aws.amazon.com/",
     company: "Amazon Web Services (AWS)",
     title: "Software Development Engineer Intern",
-    date: "May 202 - Present",
+    date: "May 2022 - Present",
     desc: "AWS AppSync",
-    tools: ["AWS", "Coral", "Cloud"],
+    tools: ["AWS", "Java"],
   },
   // {
   //   url: "https://www.umass.edu/",
