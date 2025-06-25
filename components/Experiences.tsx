@@ -6,7 +6,7 @@ const experiences = [
     url: "https://aws.amazon.com/",
     company: "Amazon Web Services (AWS)",
     title: "Software Development Engineer Intern",
-    date: "May 2022 - Present",
+    date: "May 2025 - Present",
     desc: "AWS AppSync",
     tools: ["AWS", "Java"],
   },
