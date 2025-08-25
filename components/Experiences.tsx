@@ -6,9 +6,9 @@ const experiences = [
     url: "https://aws.amazon.com/appsync/",
     company: "Amazon Web Services (AWS)",
     title: "Software Development Engineer Intern",
-    date: "May 2025 - Present",
+    date: "May 2025 - August 2025",
     desc: "AWS AppSync",
-    tools: ["AWS", "Java", "Git"],
+    tools: ["AWS", "Java", "React"],
   },
 
   {
@@ -38,19 +38,19 @@ const experiences = [
   {
     url: "http://wsslab.org/",
     company: "Wireless and Sensor Systems Lab (WSSL)",
-    title: "Undergraduate Researcher",
+    title: "Computer Vision Researcher",
     date: "December 2024 - May 2025",
     desc: "Investigated real-world applications of computer vision and sensor data for nature-related initiatives, enabling technology-driven sustainable strategies and environmental conservation.",
     tools: ["YOLOv11", "Computer Vision", "Image datasets"],
   },
-  // {
-  //   url: "https://www.umass.edu/",
-  //   company: "University of Massachusetts Amherst",
-  //   title: "Undergraduate Researcher",
-  //   date: "June 2024 - September 2024",
-  //   desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
-  //   tools: ["eBPF", "C", "Python", "Docker", "Flask"],
-  // },
+  {
+    url: "https://www.umass.edu/",
+    company: "University of Massachusetts Amherst",
+    title: "Distributed Systems Researcher",
+    date: "June 2024 - September 2024",
+    desc: "Conducted in-depth research on eBPF to capture state differences in applications, aimed at advancing CDN technologies through edge computing. Additionally implemented proof-of-concept models for performance enhancement.",
+    tools: ["eBPF", "C", "Python", "Docker", "Flask"],
+  },
 
   // {
   //   url: "https://www.mapcollective.com/",
@@ -60,14 +60,14 @@ const experiences = [
   //   desc: "Compiled comprehensive reports summarizing findings, trends, and insights from 10+ automobile company data, providing recommendations for improving sustainability practices.",
   //   tools: ["Excel", "data analysis"],
   // },
-  {
-    url: "https://www.theaapdn.org/",
-    company: "The American Academy of Pediatric Neuropsychology",
-    title: "Software Engineer Intern",
-    date: "July 2023 - September 2023",
-    desc: "Brought a 25% surge in user web traffic by upgrading pages of an engaging frontend through HTML, Bootstrap, and Tailwind frameworks which overall elevated the client's online presence. Spearheaded a project to optimize site performance by caching and minimizing HTTP requests, reducing 20% of page load times.",
-    tools: ["HTML", "Bootstrap", "Tailwind", "Dreamweaver"],
-  },
+  // {
+  //   url: "https://www.theaapdn.org/",
+  //   company: "The American Academy of Pediatric Neuropsychology",
+  //   title: "Software Engineer Intern",
+  //   date: "July 2023 - September 2023",
+  //   desc: "Brought a 25% surge in user web traffic by upgrading pages of an engaging frontend through HTML, Bootstrap, and Tailwind frameworks which overall elevated the client's online presence. Spearheaded a project to optimize site performance by caching and minimizing HTTP requests, reducing 20% of page load times.",
+  //   tools: ["HTML", "Bootstrap", "Tailwind", "Dreamweaver"],
+  // },
   // {
   //   url: "https://mucciassessment.com/",
   //   company: "Mucci Assessment and Development",
