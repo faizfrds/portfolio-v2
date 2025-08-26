@@ -13,9 +13,8 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hi there, I'm Faiz, and I'm a third-year Computer Science and Math double major
-              at the University of Massachusetts Amherst. I'm
-              currently a software engineeer intern at AWS in Arlington, VA. Moving forward, I want to explore the interdisciplinary between computers and nature.
+              Hi there, I'm Faiz, and I'm a fourth-year Computer Science and Math double major
+              at the University of Massachusetts Amherst. I have extensive experience in software development, where most recently, I interned at AWS as a software engineer. Moving forward, I seek to explore the interdisciplinary between computers and nature, in particular the area of smart farming.
             </p>
             <p className="text-sm mb-4 text-white">
               My main focus these days is to expose myself to different sides of computer
@@ -24,7 +23,7 @@ export default function About() {
               for computer applications in the physical world, in particular smart agriculture and tech-driven environmental/wildlife conservation.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on outdoor adventures (bonus points if they have conifers), shoot photos + cinematic videos, spoil my cats with a little too many treats, do adrenaline-inducing activities, and spot cool trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love to go on outdoor adventures (the PNW especially), shoot photos + cinematic videos, spoil my cats with a little too many treats, do adrenaline-inducing activities, and collect postcards!
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
