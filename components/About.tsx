@@ -13,18 +13,13 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-              Hi there, I'm Faiz, and I'm a third-year Computer Science and Math double major
-              at the University of Massachusetts Amherst. I'm
-              currently a software engineeer intern at AWS in Arlington, VA. Moving forward, I want to explore the interdisciplinary between computers and nature.
+            Hi there, I'm Faiz, a fourth-year Computer Science and Math double major at the University of Massachusetts Amherst. I have extensive experience in software development and most recently interned at AWS as a software engineer. Moving forward, I'm eager to explore the intersection of technology and the natural world, particularly in the area of smart farming.
             </p>
             <p className="text-sm mb-4 text-white">
-              My main focus these days is to expose myself to different sides of computer
-              science and figure out what floats my boat. I'm avidly interested in making functional
-              software with aesthetic UI, and I have recently developed an interest
-              for computer applications in the physical world, in particular smart agriculture and tech-driven environmental/wildlife conservation.
+            These days, I'm especially interested in building functional software with accessible and responsive UIs, and I've recently developed a growing curiosity about computer applications in the physical world, especially smart agriculture and tech-driven environmental or wildlife conservation.
             </p>
             <p className="text-sm mb-4 text-white">
-              When I'm not in front of the computer, I love to go on outdoor adventures (bonus points if they have conifers), shoot photos + cinematic videos, spoil my cats with a little too many treats, do adrenaline-inducing activities, and spot cool trains (including Amtrak) when I get the chance.
+              When I'm not in front of the computer, I love going on outdoor adventures (the PNW especially), shooting cinematic photos and videos, spoil my cats with wayyy too many treats, do adrenaline-inducing activities, and collect postcards whenever I get the chance.
             </p>
             <p className="text-sm mb-4 text-white">
               I'm open to any opportunities that come my way and shoot me an email if you ever want to get in touch!
