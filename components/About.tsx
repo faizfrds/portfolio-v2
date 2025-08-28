@@ -13,10 +13,10 @@ export default function About() {
               About Me
             </h2>
             <p className="text-sm mb-4 text-white">
-            Hi there, I'm Faiz, a fourth-year Computer Science and Math double major at the University of Massachusetts Amherst. I have extensive experience in software development and most recently interned at AWS as a software engineer. Moving forward, I'm eager to explore the intersection of technology and the natural world, particularly in the area of smart farming.
+            Hi there, I'm Faiz, a fourth-year Computer Science and Math double major at the University of Massachusetts Amherst. I have extensive experience in software development and most recently interned at AWS as a software engineer. Moving forward, I'm eager to explore the intersection of technology and the natural world!
             </p>
             <p className="text-sm mb-4 text-white">
-            These days, I'm especially interested in building functional software with accessible and responsive UIs, and I've recently developed a growing curiosity about computer applications in the physical world, especially smart agriculture and tech-driven environmental or wildlife conservation.
+            These days, I'm especially interested in building functional software with accessible and responsive UIs, and I've recently developed a growing curiosity about computer applications in the physical world, especially smart agriculture and environmental/wildlife conservation.
             </p>
             <p className="text-sm mb-4 text-white">
               When I'm not in front of the computer, I love going on outdoor adventures (the PNW especially), shooting cinematic photos and videos, spoil my cats with wayyy too many treats, do adrenaline-inducing activities, and collect postcards whenever I get the chance.
