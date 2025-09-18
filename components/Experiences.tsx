@@ -3,21 +3,20 @@ import { BsArrowRight } from "react-icons/bs";
 
 const experiences = [
   {
-    url: "https://aws.amazon.com/appsync/",
-    company: "Amazon Web Services (AWS)",
-    title: "Software Development Engineer Intern",
-    date: "May 2025 - Present",
-    desc: "AWS AppSync",
-    tools: ["AWS", "Java", "Git"],
-  },
-
-  {
     url: "https://www.cics.umass.edu/",
     company: "manning college of information and computer sciences",
     title: "Undergraduate Course Assistant",
     date: "September 2023 - Present",
     desc: "Reinforced the operations of the course CS 119 (Introduction to Programming with Python) and CS326 (Web Programming) by providing assistance to the professor. Improved students' performance and understanding by providing forum help and office hours to tutor fundamental programming topics.",
     tools: ["python", "web technologies", "higher education"],
+  },
+  {
+    url: "https://aws.amazon.com/appsync/",
+    company: "Amazon Web Services (AWS)",
+    title: "Software Development Engineer Intern",
+    date: "May 2025 - August 2025",
+    desc: "AWS AppSync",
+    tools: ["AWS", "Java", "GraphQL"],
   },
   {
     url: "https://www.instagram.com/isa.amherst/",
@@ -27,14 +26,14 @@ const experiences = [
     desc: "Liaised financial updates to board members, providing transparent guidance and updates to 30+ purchases. Managed the association’s budget of $2000+, ensuring transparent and responsible allocation of funds for events, activities, and administrative needs.",
     tools: ["leadership", "google sheets", "financial audit"],
   },
-  {
-    url: "https://www.umass.edu/",
-    company: "University of Massachusetts Amherst",
-    title: "Peer Mentor",
-    date: "January 2025 - Present",
-    desc: "Guided first-year students with resources and assistance to maximize academic success.",
-    tools: ["Collaboration", "communication", "resource provision"],
-  },
+  // {
+  //   url: "https://www.umass.edu/",
+  //   company: "University of Massachusetts Amherst",
+  //   title: "Peer Mentor",
+  //   date: "January 2025 - Present",
+  //   desc: "Guided first-year students with resources and assistance to maximize academic success.",
+  //   tools: ["Collaboration", "communication", "resource provision"],
+  // },
   {
     url: "http://wsslab.org/",
     company: "Wireless and Sensor Systems Lab (WSSL)",
